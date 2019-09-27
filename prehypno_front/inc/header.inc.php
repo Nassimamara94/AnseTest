@@ -18,17 +18,16 @@
     <!--BS PICKERDATE -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
-    <!-- Lien CSS personnel -->
+    <!-- Lien CSS personel -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="container-fluid">
-        <header class="row">
-            
+        <header class="row offset-md-1">
             <!-- NavbarPrimaire -->
-            <nav class="navbar navbar-expand-lg navbar-light logo col-md-12" id="navbarPrimaire">
-            <div class="col-md-2">
+            <nav class="navbar navbar-expand-lg navbar-light logo col-md-12 mt-4" id="navbarPrimaire">
+            <div class="margin-left col-md-2"  id="border">
                 <?php
                 if (!isset($_GET['page'])) {
                     echo '<img src="img/logoFaviconAlpha.png" alt="photo-profil">';
@@ -41,31 +40,36 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 </div>
+                <div class="col-md-2" id="border">
+                               
+                                <i class="fas fa-map-marker-alt"><address>23 rue de la folie Méricourt<br> 75011 Paris</address></i>    
+                            <p>07 01 02 03 01</p>
+                        </div>
+                <div class="col-md-4 menu-margin"  id="border">
+                <h2 class="titre1">lorem ipsum</h2>
+                <a href="rdv.php?page=rdv" class="col-md-6 m-4 btn">
+                            Prendre un RDV
+                            </a>
+                </div>
+                <div class="col-md-4 menu-margin"  id="border">
+               
+                <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
+                <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
+                <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
+                </div>
 
-             <!-- header widgets -->
-             <div class="header-widgets">
-                <div class="widget header-widgets_widget-icon-box">
-                 <a class="icon-box" href=" https://www.google.fr/maps/place/23+Rue+de+la+Folie+M%C3%A9ricourt,+75011+Paris/@48.8625872,2.3711157,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66dfb861f8079:0x3d12cedc238537f8!8m2!3d48.8625872!4d2.3733044" target="_blank">
-                </a></a>
-             
+                
+            
 
-                <div class="col-md-7 menu-margin">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mt-4">
-                        <li class="nav-item active">
+                    <!-- <ul class="navbar-nav mt-4">
+                        <li class="nav-item  active">
                                <a href="qui.php?page=qui" class="col-md-2 m-4 btn">
-                             <i class="fas fa-map-marker-alt"></i> 23 rue de la folie Méricourt 75011 Paris
+                               Qui
                                </a>
                         </li>
                         <li class="nav-item active">
                            <a href="seance.php?page=seance" class="col-md-2 m-4 btn">
                            Séance
-                           </a>
-                        </li>
-
-                        <li class="nav-item active">
-                           <a href="qui.php?page=qui" class="col-md-2 m-4 btn">
-                           Qui
                            </a>
                         </li>
 
@@ -85,21 +89,12 @@
                             Prendre un RDV
                             </a>
                         </li>
-                        </ul>
+                        </ul> -->
                         </div>
                         </div>
-                        <div class="col-md-2">
-                           
-                            <button type="button" class="btn btn-info rounded-pill"> <i class="fas fa-phone"></i> 07-01-02-03-01</button>
-                        </div>
+                  
             </nav><!-- fin #navbarPrimaire -->
     </div>
-
-    </div> <!-- fin div widget_header -->
-    </div> <!-- fin header widgets -->
-
-
-
     <div class="row">
         <!-- NavbarSecondaire -->
         <nav class="container-fluid navbar navbar-inverse navbar-expand-lg navbar-fixed-bottom navbar-light logo"
@@ -141,4 +136,3 @@
     <a href="admin/connexion.php">
         <hr></a>
     <main class="row">
-        

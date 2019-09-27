@@ -41,9 +41,6 @@ em {
   border-bottom: 2px solid black;
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
 } */
-header{
-  background: rgb(112, 180, 174);
-}
 
 hr {
   width: 75rem;
@@ -139,9 +136,6 @@ footer ul li .twit {
 
 /* ACCUEIL */
 
-.menu-margin {
-   margin-left: 8rem;
-}
 
 .first-margin {
   margin-left: 8rem;
@@ -193,5 +187,19 @@ aside>p>i {
   font-size: 0.6rem;
 }
 
-/* menu burger */
+ .titre1{
+  margin-left: 90px;
 
+}  
+.margin-left{
+  margin-left: 8rem;
+  
+}
+#navbarPrimaire{
+  position: relative;
+}
+#border{
+  border-right: 1px solid black;
+  height: 7rem;
+  
+}
