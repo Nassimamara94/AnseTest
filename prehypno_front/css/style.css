@@ -1,0 +1,197 @@
+/******************************************** RESET ********************************************/
+* {
+  box-sizing: border-box;
+}
+
+/************************************* REGLAGES GENEREAUX *************************************/
+body {
+  background-color: #EAFCF4;
+}
+
+section {
+  padding: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+em {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: rgb(69, 70, 70);
+
+}
+
+/* hover pour les boutons "qui, séance, témoignages, blog" */
+.hover:hover {
+  color: black;
+  background-color: #EAFCF4;
+  color: rgb(36, 116, 190);
+  box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  background-color: #EAFCF4;
+  border: 2rem grey;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/*************************************** HEADER & FOOTER ***************************************/
+/* header {
+  border-bottom: 2px solid black;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+} */
+header{
+  background: rgb(112, 180, 174);
+}
+
+hr {
+  width: 75rem;
+  border: 1px solid #d3d3d3;
+}
+
+a hr {
+  cursor: default;
+}
+
+
+
+/*  */
+aside>p>i {
+  font-size: 0.6rem;
+}
+
+/* Agir sur le nom Anne-Ceciele ROUGIER afin de le rendre gris avec une taille speciale afin de le descendre */
+.textNom {
+  margin-top: 100px;
+  text-align: justify;
+  font-size: 40px;
+}
+
+.rounded :hover {
+  width: 150px !important;
+  /* on affiche l'image au carré */
+  height: 150px !important;
+  border-radius: 50% !important;
+}
+
+/* reseaux sociaux footer
+1_ Redimensionner chacun des logos en talle 60px(X)60px
+2_Reduire en forme circulaire avec le border-radius 
+3_ajouter une bordure en RGB
+4_appliquer le code du passage de la souris
+
+*/
+footer ul li .face {
+  display: block;
+  width: 60px;
+  height: 60px;
+  /* margin: 10px auto; */
+  border-radius: 50%;
+  margin: 2px;
+  border: rgb(69, 179, 212) 10px double;
+}
+
+footer ul li .link {
+  display: block;
+  width: 60px;
+  height: 60px;
+  /* margin: 10px auto; */
+  border-radius: 50%;
+  margin: 2px;
+  border: rgb(69, 179, 212) 10px double;
+
+}
+
+footer ul li .twit {
+  display: block;
+  width: 60px;
+  height: 60px;
+  /* margin: 10px auto; */
+  border-radius: 50%;
+  margin: 2px;
+  border: rgb(69, 179, 212) 10px double;
+
+}
+
+/* bouton admin */
+
+
+
+
+/* menu navbarPrimaire et navBarSecondaire */
+/* MEDIA QUERRIES */
+/* Seule la navBarSecondaire est appelée à disparaitre lorsque l'écran est compris entre ]1200 ->[ */
+@media(min-width: 1200px) {
+  #navbarSecondaire {
+    display: none;
+  }
+}
+
+/* Seule la navBarPrimaire est appelée à disparaitre lorsque l'écran est compris entre ]<- 1200[ */
+@media(max-width: 1200px) {
+  #navbarPrimaire {
+    display: none;
+  }
+}
+
+
+
+/* ACCUEIL */
+
+.menu-margin {
+   margin-left: 8rem;
+}
+
+.first-margin {
+  margin-left: 8rem;
+
+}
+
+
+.line-end {
+  margin-left: 24rem;
+  margin-top: 4rem;
+  text-align: right;
+}
+
+
+
+/* Photo de profil et bouton après */
+@media all and (max-width: 640px) {
+  .display {
+    display: none;
+    clear: both;
+  }
+}
+
+/************** TEMOIGNAGES **************/
+.card {
+  background-color: #EAFCF4;
+}
+
+/************** FORM_TEMOIGNAGE **************/
+.bg-form {
+  background-color: #EAFCF4;
+}
+
+/********************** PREZ **********************/
+
+/* redimensionner l'image de profil */
+.image-anne {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 10px auto;
+  border-radius: 50%;
+  margin: 2px;
+
+}
+
+/*  */
+aside>p>i {
+  font-size: 0.6rem;
+}
+
+/* menu burger */
+
