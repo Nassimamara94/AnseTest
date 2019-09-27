@@ -43,7 +43,7 @@
                 <div class="col-md-2" id="border">
                                
                                 <i class="fas fa-map-marker-alt"><address>23 rue de la folie Méricourt<br> 75011 Paris</address></i>    
-                            <p>07 01 02 03 01</p>
+                            <button type="button" class="btn btn-info btn-rounded ml-2"><i class="fas fa-phone">07 01 02 03 01</button></i> 
                         </div>
                 <div class="col-md-4 menu-margin"  id="border">
                 <h2 class="titre1">lorem ipsum</h2>
@@ -51,9 +51,8 @@
                             Prendre un RDV
                             </a>
                 </div>
-                <div class="col-md-4 menu-margin"  id="border">
+                <div class="col-md-4 menu-margin"  id="">
                
-                <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
                 <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
                 <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
                 </div>
