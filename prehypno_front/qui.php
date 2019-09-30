@@ -14,126 +14,95 @@
     <title>L'hypnose pour qui ?</title>
 </head>
 <body>
-<section class="container">
-<h1 class="text-center border border-success">L'hypnose pour qui ?</h1>
-<div class="row">
-<div class="col-md-6 mt-4">
+    <div class="container">
+        
+        <div class="row">  <!-- debut row -->
+            <div class="col-md-6 mt-4">
+                <img src="img/photoes-hypnose/couples1.jpg" alt="couple thérapie">
+            </div>
 
-<div class="card mb-3 card" style="max-width: 540px;">
+             <div class="col-md-6 mt-4">
+                 <br>
+                  <h4> Pour la thérapie de couple :</h4>
+                  <br>
+                  <ul>
+                     <li>une séance de rencontre avec les deux personnes</li>
+                     <li>deux à trois séances individuelles</li>
+                     <li> puis une à deux séances en couple (bilan et mise en place des nouvelles bases) </li> 
+                   </ul> 
+    
+                    <p>Le nombre de séances est indiqué simplement à titre indicatif, chaque personne étant différente, on ne saurait déterminer un nombre de séances exact par avance. Chacun a son propre rythme. </p>
+             </div>
 
-    <div class="row no-gutters">
-        <div class="col-md-4">
-        <img src="../prehypno_front/img/ArrêtduTabac.png" class="card-img" alt="fumeur">
-        </div>
+        </div> <!-- fin row -->
 
-<div class="col-md-8">
-<div class="card-body ">
-<h5 class="card-title">Tabac</h5>
-<p class="card-text">Première séance :
-* Comptez 1h30 / 2h
-* Une phase de discussion assez rapide pour comprendre « le fumeur que vous êtes ».
-* Un peu de pédagogie pour vous expliquer comment va se passer la séance et les jours à venir
-* Techniques d'hypnose : au revoir la cigarette !
+        <br>
+         <div class="row"> <!-- debut row-->
+             <div class="col-md-6 mt-4">
+                 <br>
+                  <h4> « Perte de poids » ou « Gagner en légèreté » : </h4>
+                  <br>
+                  
+                 <ul>
+                     <li>
+                         Une première séance où nous chercherons les raisons principales de votre poids, ce qui vous pèse... depuis quand... Nous analyserons ce que vous avez déjà mis en place auparavant. Il n'y aura pas forcément de techniques d'hypnose ce jour-là car nos échanges pourraient prendre l'intégralité de la séance. Je pourrais déjà vous donner un ordre d'idée sur le nombre de séance sachant que rien n'est figé et que des choses vont bouger </li>
+                     <li>
+                         Pour la suite, nous ferons des points sur les changements qui s'opèrent entre chaque séance puis nous travaillerons en hypnose pour vous alléger. </li>
+                     <li>
+                         Je vous proposerai des exercices à faire chez vous pour accompagner notre travail d’allègement de l'esprit.</li>
+                 </ul>
+             </div>
 
-Deuxième séance facultative pour faire un point avec vous depuis l'arrêt (80 euros)</p>
-<a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+                <div class="col-md-6 mt-4">                
+                 <img src="img/photoes-hypnose/regimes.jpg" alt="perte de poids ">
+                </div>
 
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6 mt-4">
+         </div> <!-- fin row -->
 
-<div class ="card mb-3 card" style="max-width: 540px;">
 
-    <div class="row no-gutters">
-        <div class="col-md-4">
-        <img src="img/couple.png" class="card-img" alt="couple">
-        </div>
+           <div class="row">  <!-- debut row -->
+                 <div class="col-md-6 mt-4">
+                      <img src="img/photoes-hypnose/adultes-adolescents.jpg" alt="couple thérapie">
+                 </div>
 
-<div class="col-md-8">
-<div class="card-body ">
-<h5 class="card-title">Couple</h5>
-<p class="card-text">Pour la thérapie de couple : 
-* une séance de rencontre avec les deux personnes
-* deux à trois séances individuelles
-* puis une à deux séances en couple (bilan et mise en place des nouvelles bases) 
-​
-Le nombre de séances est indiqué simplement à titre indicatif, chaque personne étant différente, on ne saurait déterminer un nombre de séances exact par avance. Chacun a son propre rythme. </p>
-<a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+                 <div class="col-md-6 mt-4 texte ">
+                     <br>
+                     <h4> Adultes & Adolescents :</h4>
+                     <br>
+                      <ul>
+                        <li>Une première séance nous permettra de définir ensemble vos besoins (1h30 – 1h45) grâce à nos échanges basés sur de la bienveillance. Il n'y aura pas forcément de techniques d'hypnose ce jour-là car nos échanges pourraient prendre l'intégralité de la séance.</li>
+                       <li>Par la suite, tout dépendra de l'objet de votre visite puisque nous sommes sur un accompagnement personnalisé et bref. Nous échangerons à ce sujet conjointement.</li>
+                      </ul>
 
-</div>
-</div>
-</div>
-</div>
-</div>
+                    <p>Le nombre de séances est indiqué simplement à titre indicatif, chaque personne étant différente, on ne saurait déterminer un nombre de séances exact par avance. Chacun a son propre rythme. </p>  
+                 </div>
+           </div> <!-- fin row -->
 
- </div><!-- Fin div row -->
+        
+        <br>
+         <div class="row"> <!-- debut row-->
+             <div class="col-md-6 mt-4 texte ">
+                 <br>
+                  <h4>Enfants : </h4>
+                  <br>
+                  
+                 <ul>
+                     <li>
+                         Une première séance où nous chercherons les raisons principales de votre poids, ce qui vous pèse... depuis quand... Nous analyserons ce que vous avez déjà mis en place auparavant. Il n'y aura pas forcément de techniques d'hypnose ce jour-là car nos échanges pourraient prendre l'intégralité de la séance. Je pourrais déjà vous donner un ordre d'idée sur le nombre de séance sachant que rien n'est figé et que des choses vont bouger </li>
+                     <li>
+                         Pour la suite, nous ferons des points sur les changements qui s'opèrent entre chaque séance puis nous travaillerons en hypnose pour vous alléger. </li>
+                     <li>
+                         Je vous proposerai des exercices à faire chez vous pour accompagner notre travail d’allègement de l'esprit.</li>
+                 </ul>
+             </div>
 
- <div class="row">
-
-<div class="col-md-6 mt-4">
-
- <div class="card mb-3" style="max-width: 540px;">
-
-     <div class="row no-gutters">
-
-         <div class="col-md-4">
-
-         <img src="../prehypno_front/img/Adultes&Adolescents.png" class="card-img" alt="logo du site">
-
-         </div>
-
-<div class="col-md-8">
-
-<div class="card-body">
-
-<h5 class="card-title">Card title</h5>
-
-<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
- <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+             <div class="col-md-6 mt-4">                
+                 <img src="img/photoes-hypnose/enfants2.jpg" alt="perte de poids ">
+             </div>
+         </div> <!-- fin row -->
 
 
 
-<div class="col-md-6 mt-4">
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-            <div class="col-md-4">
-
-<img src="../prehypno_front/img/enfants.png" class="card-img" alt="logo du site">
-
-</div>
-
-<div class="col-md-8">
-
-    <div class="card-body">
-
-<h5 class="card-title">Card title</h5>
-
-<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
- <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
-
-</div>
-</div>
-</div>
-</div>
-
-</div>
- </div><!-- Fin div row -->
-</section>
 </body>
 </html>
 

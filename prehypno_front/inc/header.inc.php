@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!--google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <!-- Lien CDN bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -27,34 +27,32 @@
         <header class="row offset-md-1">
             <!-- NavbarPrimaire -->
             <nav class="navbar navbar-expand-lg navbar-light logo col-md-12 mt-4" id="navbarPrimaire">
-            <div class="margin-left col-md-2"  id="border">
-                <?php
-                if (!isset($_GET['page'])) {
-                    echo '<img src="img/logoFaviconAlpha.png" alt="photo-profil">';
-                } elseif (isset($_GET['page']) && $_GET['page'] == 'qui' || $_GET['page'] == 'seance' || $_GET['page'] == 'temoignages' || $_GET['page'] == 'formTemoignage' || $_GET['page'] == 'articles' || $_GET['page'] == 'prez' || $_GET['page'] == 'rdv') {
-                    echo '<a href="#"><i class="fas fa-arrow-alt-circle-left fa-2x m-5"></i></a>';
-                }
-                ?>
+            <div class="margin-left col-md-1"  id="border">
+               <img src="img/logoFavIconAlpha.png" alt="">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 </div>
                 <div class="col-md-2" id="border">
-                               
-                                <i class="fas fa-map-marker-alt"><address>23 rue de la folie Méricourt<br> 75011 Paris</address></i>    
-                            <button type="button" class="btn btn-info btn-rounded ml-2"><i class="fas fa-phone">07 01 02 03 01</button></i> 
+                               <br>
+                                <address><i class="fas fa-map-marker-alt">&nbsp 23 rue de la folie Méricourt<br> 75011 Paris</i> </address>   
+                            <!-- <button type="button" class="btn btn-info btn-rounded"><i class="fas fa-phone">&nbsp 07 01 02 03 01</button></i>  -->
+                            <button class="telephone"><i class="fas fa-phone">&nbsp 07 01 02 03 01</i></button>
                         </div>
                 <div class="col-md-4 menu-margin"  id="border">
                 <h2 class="titre1">lorem ipsum</h2>
-                <a href="rdv.php?page=rdv" class="col-md-6 m-4 btn">
-                            Prendre un RDV
-                            </a>
+                <button class="button" href="rdv.php?page=rdv" target="_blank" class="col-md-6 m-4 btn"><i class="fas fa-clock"> Prendre un RDV
+                            </button></i>
+                           
                 </div>
                 <div class="col-md-4 menu-margin"  id="">
-               
-                <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
-                <button type="button" class="btn btn-info ml-3 mt-1 col-md-6">Vous voulez savoir plus?</button>
+                
+                <div class="col-md-6 ml-3 mt-1">
+                <button class="buttons" class=" ml-3 mt-1 col-md-6">Inscription</button>
+            </div> <br>
+                <div class="col-md-6 ml-3 mt-1">
+                <button class="buttons" class=" ml-3 mt-1 col-md-6">Connexion</button>
                 </div>
 
                 

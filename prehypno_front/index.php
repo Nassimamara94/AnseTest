@@ -21,6 +21,7 @@
             <p class="line-end"> Anne-Cécile ROUGIER <br> Hypno-thérapeute</p>
             <button type="button" class="btn btn-info ml-3 mt-5">Voir plus</button>
         </div>
+        <!-- contenu masqué -->
 
  <!-- NAV BAR-->                            
             <nav class="navbar navbar-dark">
