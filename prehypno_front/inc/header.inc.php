@@ -22,81 +22,64 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div class="container-fluid">
-        <header class="row offset-md-1">
+<body class="container">
+    
+
+        <header class="row">
+
             <!-- NavbarPrimaire -->
-            <nav class="navbar navbar-expand-lg navbar-light logo col-md-12 mt-4" id="navbarPrimaire">
-            <div class="margin-left col-md-1"  id="border">
-               <img src="img/logoFavIconAlpha.png" alt="">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <nav class="navbar navbar-expand-lg navbar-light col-md-12 mt-4">
+
+                <div class="col-md-2 text-center"  id="border">
+
+                    <img src="img/logoFavIconAlpha.png" alt="logo préhypno">
+
+                    <!-- + -->
+
                 </div>
-                <div class="col-md-2" id="border">
-                               <br>
-                                <address><i class="fas fa-map-marker-alt">&nbsp 23 rue de la folie Méricourt<br> 75011 Paris</i> </address>   
+
+                <div class="col-md-3 text-center" id="border">
+
+                            <address><i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris </address>   
                             <!-- <button type="button" class="btn btn-info btn-rounded"><i class="fas fa-phone">&nbsp 07 01 02 03 01</button></i>  -->
-                            <button class="telephone"><i class="fas fa-phone">&nbsp 07 01 02 03 01</i></button>
-                        </div>
-                <div class="col-md-4 menu-margin"  id="border">
-                <h2 class="titre1">lorem ipsum</h2>
-                <button class="button" href="rdv.php?page=rdv" target="_blank" class="col-md-6 m-4 btn"><i class="fas fa-clock"> Prendre un RDV
-                            </button></i>
+                            <button class="bouton_vert mx-auto badge-2x badge-pill"><i class="fas fa-phone"></i>&nbsp 07 01 02 03 01</button>
+
+                </div>
+
+                <div class="col-md-6 text-center"  id="border">
+
+                    <h2 class="titre1 mt-2">lorem ipsum</h2>
+
+                    <button class="bouton_vert mt-3 badge-2x badge-pill" href="rdv.php?page=rdv" target="_blank"><i class="fas fa-clock"></i> Prendre un RDV </button>
                            
                 </div>
-                <div class="col-md-4 menu-margin"  id="">
+
+                <div class="col-md-2 text-center"  id="border">
                 
-                <div class="col-md-6 ml-3 mt-1">
-                <button class="buttons" class=" ml-3 mt-1 col-md-6">Inscription</button>
-            </div> <br>
-                <div class="col-md-6 ml-3 mt-1">
-                <button class="buttons" class=" ml-3 mt-1 col-md-6">Connexion</button>
+                    <div class="mt-3">
+
+                        <button class="bouton_vert mt-1">Inscription</button>
+
+                    </div>
+
+                    <div class="mt-4">
+
+                    <button class="mt-1 bouton_vert">Connexion</button>
+
+                    </div>
+
                 </div>
 
                 
-            
-
-                    <!-- <ul class="navbar-nav mt-4">
-                        <li class="nav-item  active">
-                               <a href="qui.php?page=qui" class="col-md-2 m-4 btn">
-                               Qui
-                               </a>
-                        </li>
-                        <li class="nav-item active">
-                           <a href="seance.php?page=seance" class="col-md-2 m-4 btn">
-                           Séance
-                           </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="temoignages.php?page=temoignages"
-                            class="col-md-2 m-4 btn">
-                            Témoignages
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="articles.php?page=articles" class="col-md-2 m-4 btn">
-                            Articles
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="rdv.php?page=rdv" class="col-md-12 m-4 btn">
-                            Prendre un RDV
-                            </a>
-                        </li>
-                        </ul> -->
-                        </div>
-                        </div>
-                  
             </nav><!-- fin #navbarPrimaire -->
-    </div>
+
+        </header>
+    
+
     <div class="row">
-        <!-- NavbarSecondaire -->
-        <nav class="container-fluid navbar navbar-inverse navbar-expand-lg navbar-fixed-bottom navbar-light logo"
+        
+        <nav class="navbar navbar-inverse navbar-lg navbar-fixed-bottom navbar-light logo"
             id="navbarSecondaire">
-            <img src="img/logoFaviconAlpha.png" alt="logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -123,13 +106,10 @@
                                 class="border border-light rounded-pill btn hover">Prendre un
                                 RDV</span></a>
                     </li>
-                    <li class="nav-item ml-4">
-                        <a class="nav-link">07 01 02 03 01</span></a>
-                    </li>
             </div>
-        </nav><!-- fin #navbarSecondaire -->
+        </nav>
     </div>
-    </header><!-- fin class header -->
+    
     <a href="admin/connexion.php">
         <hr></a>
     <main class="row">

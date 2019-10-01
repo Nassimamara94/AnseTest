@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-/************************************* REGLAGES GENEREAUX *************************************/
+/************************************* REGLAGES GENERAUX *************************************/
 body {
   background-color: #EAFCF4;
    font-family: 'Lora', sans-serif !important;
@@ -12,10 +12,7 @@ html{
    font-family: 'Lora', sans-serif !important;
 }
 
-/*************************************** font général  ***************************************/
-section {
-  padding: 50px;
-}
+/*************************************** font général  ***************************************
 
 /* p {
   text-align: justify;
@@ -56,31 +53,11 @@ a hr {
   cursor: default;
 }
 
-/****************************** adresse ****************************************/
+/****************************** header****************************************/
 
-.telephone{
- border: 2px solid #3DA35D;
- width: 250px;
- height: 30px;
+.bouton_vert{
  background-color: #3DA35D;
  color:white;
-}
-
-.button{
- border: 2px solid #3DA35D;
- /* width: 250px; */
- height: 30px;
- background-color: #3DA35D;
- color: white;
- margin-left:174px;
-}
-
-.buttons{
- border: 2px solid #3DA35D;
- width: 130px;
- height: 30px;
- background-color: #3DA35D;
- color: white;
 }
 /*  */
 aside>p>i {
@@ -88,11 +65,11 @@ aside>p>i {
 }
 
 /* Agir sur le nom Anne-Ceciele ROUGIER afin de le rendre gris avec une taille speciale afin de le descendre */
-.textNom {
+/* .textNom {
   margin-top: 100px;
   text-align: justify;
   font-size: 40px;
-}
+} */
 
 .rounded :hover {
   width: 150px !important;
@@ -140,65 +117,13 @@ footer ul li .twit {
 
 }
 
-/* bouton admin */
-
-
-
-
-/* menu navbarPrimaire et navBarSecondaire */
-/* MEDIA QUERRIES */
-/* Seule la navBarSecondaire est appelée à disparaitre lorsque l'écran est compris entre ]1200 ->[ */
-@media(min-width: 1200px) {
-  #navbarSecondaire {
-    display: none;
-  }
-}
-
-/* Seule la navBarPrimaire est appelée à disparaitre lorsque l'écran est compris entre ]<- 1200[ */
-@media(max-width: 1200px) {
-  #navbarPrimaire {
-    display: none;
-  }
-}
-
-
-
-/* ACCUEIL */
-
-
-.first-margin {
-  margin-left: 8rem;
-
-}
-
-
-.line-end {
-  margin-left: 24rem;
-  margin-top: 4rem;
-  text-align: right;
-}
-
-
-
 /* Photo de profil et bouton après */
-@media all and (max-width: 640px) {
+ /* @media all and (max-width: 640px) {
   .display {
     display: none;
     clear: both;
   }
-}
-
-/************** TEMOIGNAGES **************/
-/* .card {
-  background-color: #EAFCF4;
-} */
-
-/************** FORM_TEMOIGNAGE **************/
-/* .bg-form {
-  background-color: #EAFCF4;
-} */
-
-/********************** PREZ **********************/
+}  */
 
 /* redimensionner l'image de profil */
 .image-anne {
@@ -210,28 +135,23 @@ footer ul li .twit {
   margin: 2px;
 
 }
+.signature{
+  position: relative;
+  margin-top: -2.5rem;
+}
 
 /*  */
 aside>p>i {
   font-size: 0.6rem;
 }
 
- .titre1{
-  text-align:center;
-}  
-.margin-left{
-  margin-left: 12rem;
-  
-}
-#navbarPrimaire{
+/* #navbarPrimaire{
   position: relative;
-}
+} */
 #border{
   border-right: 1px solid black;
   height: 7rem;
-  
 }
-
 /*************page Qui ******************************/
 
 h4{
