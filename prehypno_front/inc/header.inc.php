@@ -41,12 +41,12 @@
                 <div class="col-md-3 text-center" id="border">
 
                             <address><i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris </address>   
-                            <!-- <button type="button" class="btn btn-info btn-rounded"><i class="fas fa-phone">&nbsp 07 01 02 03 01</button></i>  -->
+                           
                             <button class="bouton_vert mx-auto badge-2x badge-pill"><i class="fas fa-phone"></i>&nbsp 07 01 02 03 01</button>
 
                 </div>
 
-                <div class="col-md-6 text-center"  id="border">
+                <div class="col-md-5 text-center"  id="border">
 
                     <h2 class="titre1 mt-2">lorem ipsum</h2>
 
@@ -58,13 +58,13 @@
                 
                     <div class="mt-3">
 
-                        <button class="bouton_vert mt-1">Inscription</button>
+                        <button class="bouton_vert mt-1 badge-2x badge-pill">Inscription</button>
 
                     </div>
 
                     <div class="mt-4">
 
-                    <button class="mt-1 bouton_vert">Connexion</button>
+                    <button class="mt-1 bouton_vert badge-2x badge-pill">Connexion</button>
 
                     </div>
 
@@ -77,15 +77,19 @@
     
 
     <div class="row">
-        
-        <nav class="navbar navbar-inverse navbar-lg navbar-fixed-bottom navbar-light logo"
-            id="navbarSecondaire">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <div class="col">
+            <nav class="navbar navbar-inverse navbar-lg navbar-fixed-bottom navbar-light logo"
+                id="navbarSecondaire">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-align-center" id="navbarNav">
-                <ul class="navbar-nav mt-4">
+                </button>
+
+              
+                <div class="collapse navbar-collapse text-align-center" id="navbarNav">
+                    <ul class="navbar-nav mt-4">
+                    <div class="row"> 
                     <li class="nav-item active ml-2">
                         <a class="nav-link "><span class="border border-light rounded-pill btn hover">L'hypnose pour qui
                                 ?</span></a>
@@ -101,14 +105,11 @@
                         <a class="nav-link"><span class="border border-light rounded-pill btn hover">Anne-Cecile
                                 ROUGIER</span></a>
                     </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="rdv.php?page=rdv"><span
-                                class="border border-light rounded-pill btn hover">Prendre un
-                                RDV</span></a>
-                    </li>
-            </div>
-        </nav>
-    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</div>
     
     <a href="admin/connexion.php">
         <hr></a>
