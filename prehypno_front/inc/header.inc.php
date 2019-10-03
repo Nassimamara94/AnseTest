@@ -1,4 +1,4 @@
-<?php require_once 'inc/init.inc.php' ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -20,9 +20,12 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
     <!-- Lien CSS personel -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Lien CSS personel -->
+    <link rel="stylesheet" href="../css/admin-style.css">
+
 </head>
 
-<body class="container">
+<div class="container">
     
 
         <header class="row">
@@ -32,7 +35,7 @@
 
                 <div class="col-md-2 text-center"  id="border">
 
-                    <img src="img/logoFavIconAlpha.png" alt="logo préhypno">
+                    <a href="index.php"><img src="img/logoFavIconAlpha.png" alt="logo préhypno"></a>
 
                     <!-- + -->
 
@@ -42,7 +45,7 @@
 
                             <address><i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris </address>   
                            
-                            <button class="bouton_vert mx-auto badge-2x badge-pill"><i class="fas fa-phone"></i>&nbsp 07 01 02 03 01</button>
+                            <button class="bouton_vert mx-auto badge-2x badge-pill telephone"><i class="fas fa-phone"></i>&nbsp 07 01 02 03 01</button>
 
                 </div>
 
@@ -50,7 +53,7 @@
 
                     <h2 class="titre1 mt-2">lorem ipsum</h2>
 
-                    <button class="bouton_vert mt-3 badge-2x badge-pill" href="rdv.php?page=rdv" target="_blank"><i class="fas fa-clock"></i> Prendre un RDV </button>
+                    <a href="rdv.php"><button class="bouton_vert mt-3 badge-2x badge-pill" target="_blank"><i class="fas fa-clock"></i> Prendre un RDV </button></a>
                            
                 </div>
 
@@ -64,7 +67,7 @@
 
                     <div class="mt-4">
 
-                    <button class="mt-1 bouton_vert badge-2x badge-pill">Connexion</button>
+                    <a href="admin/connexion.php"><button class="mt-1 bouton_vert badge-2x badge-pill">Inscription/Connexion</button></a>
 
                     </div>
 
@@ -87,30 +90,37 @@
                 </button>
 
               
-                <div class="collapse navbar-collapse text-align-center" id="navbarNav">
-                    <ul class="navbar-nav mt-4">
+            <div class="collapse navbar-collapse text-align-center" id="navbarNav">
+                <ul class="navbar-nav mt-4">
                     <div class="row"> 
-                    <li class="nav-item active ml-2">
-                        <a class="nav-link "><span class="border border-light rounded-pill btn hover">L'hypnose pour qui
-                                ?</span></a>
-                    </li>
-                    <li class="nav-item active ml-2">
-                        <a class="nav-link"><span class="border border-light rounded-pill btn hover">Déroulé d'une
-                                séance</span></a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link"><span class="border border-light rounded-pill btn hover">Articles</span></a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link"><span class="border border-light rounded-pill btn hover">Anne-Cecile
-                                ROUGIER</span></a>
-                    </li>
-                </div>
-            </ul>
-        </div>
-    </nav>
+                        <li class="nav-item active ml-2">
+                            <a class="nav-link " href="qui.php">
+                                <span class="border border-light rounded-pill btn hover">L'hypnose pour qui ?</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active ml-2">
+                            <a class="nav-link" href="seance.php">
+                                <span class="border border-light rounded-pill btn hover">Déroulé d'une séance</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link" href="articles.php">
+                                <span class="border border-light rounded-pill btn hover">Articles</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link" href="prez.php">
+                                <span class="border border-light rounded-pill btn hover">Anne-Cecile ROUGIER</span>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+<hr></a>
+<main class="row">
 </div>
-    
-    <a href="admin/connexion.php">
-        <hr></a>
-    <main class="row">

@@ -1,31 +1,18 @@
-<!-- </main> Fin main -->
-<!-- <footer class="footer mt-auto p-3y">
+</main> <!-- Fin main -->
+<footer class="footer mt-auto p-3y">
     <div class="container mt-5">
         <ul class="nav justify-content-center">
             <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn">
-                <img src="img/socialmedia.png"
+                <img src="img/social-media.png"
                         alt="logo-facebook" class="face hover">
                     </a></li>
-            <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn"><img src="img/linkedincopie.png"
+            <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn"><img src="img/linkedin.png"
                         alt="logo-linkedin" class="twit hover"></a></li>
             <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn"><img src="img/twitter.png" r
                         alt="logo-twitter" class="link hover"></a></li>
         </ul>
-    </div> -->
-<!-- </footer>Fin footer -->
-
-<!-- Footer -->
-<footer class="page-footer font-small alert alert-primary">
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2019 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> AnneCécileRongier.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
-
+    </div>
+</footer><!-- Fin footer -->
 </div> <!-- Fin div container -->
 <!-- Lien CDN JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -46,5 +33,4 @@
 <!-- jQuery perso -->
 <script src="js/jQuery.js" type="text/javascript"></script>
 </body>
-
 </html>

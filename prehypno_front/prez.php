@@ -1,10 +1,10 @@
 <?php require_once 'inc/header.inc.php' ?>
-<div class="container offset-md-3">
+<div class="container offset-md-1">
     <div class="row">
-        <div class="col-md-3 mt-2">
+        <div class="col-md-3 mr-4">
             <img src="img/pp.png" class="image-anne" alt="photo-profil">
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 offset-md-1">
             <h3 class="textNom text-secondary">Anne-Cécile ROUGIER</h3>
             <p>Hypnothérapeute dipolomée de l'IFHE</p>
 

@@ -1,68 +1,108 @@
 <?php
 require_once("../inc/init.inc.php");
-extract($_POST);
-$adminEmailError = '';
-$adminPwError = '';
-
-
-// Petit 1 je recupere les information de la table Admin
-$req = $bdd->query("SELECT * FROM admin");
-$admin = $req->fetch(PDO::FETCH_ASSOC);
-
-// echo '<pre>';   print_r($_POST);  echo '</pre>'; 
-// 2 Je verifie mets champs
-if ($_POST) {
-    if (empty($adminEmail) || !filter_var($adminEmail, FILTER_VALIDATE_EMAIL) && $adminEmail != $admin['adminEmail']) {
-        $adminEmailError .=  '<small class="text-danger"> ** Saisissez un Email valide</small>';
-    }
-    if (empty($adminPw) ||  $adminPw != $admin['adminPw']) {
-        $adminPwError .=  '<small class="text-danger"> ** Saisissez un mot de passe valide</small>';
-    }
-    // Si je n'est aucun message d'erreur qui s'affiche on redirige vers la page acceuil-admin.php 
-    if (empty($adminEmailError) && empty($adminPwError)) {
-        header('Location:accueil_admin.php');
-    }
-} // Fin du if($_POST)
-
+require_once("../inc/header.inc.php");
 ?>
-<!DOCTYPE html>
-<html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Lien css -->
-    <link rel="stylesheet" href="../css/admin-style.css">
-    <!-- Lien CSS BoutStrap  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Connexion</title>
-    <script>
+    
+        <div class="row"> <!-- debut row -->
+           
+            <div class="col-md-6" id="inscription">
 
-    </script>
-</head>
+                 <h1 class="text-center">Inscription</h1>
 
-<body>
-    <h1 class="col-md-4 offset-md-4 mb-4 text-center">Connexion</h1>
-    <form class="col-md-4 offset-md-4 mt-5 text-center form" method="Post">
-        <?php echo  $adminEmailError; ?>
-        </div>
-        <input type="text" class="form-control rounded-pill text-center m-3 " name="adminEmail"
-            placeholder="Votre@Email.com">
-        </div>
+             
+                 <form class="col-md-6 text-center form" method="Post">
+                 <!-- nom -->
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="nom" placeholder="nom" name="nom" >
+                 </div>
+                 <!-- prenom -->
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="prenom" placeholder="prenom"  name="prenom">
+                 </div>
+           
+                 <!-- date -->
+                 <div class="form-group">
+                 <input type="date"  class="form-control" id="date" placeholder="date" name="date">
+                 </div>
 
-        <!-- mdp -->
-        <div class="form-group">
-            <?php echo $adminPwError; ?>
-            <input type="password" class="form-control rounded-pill text-center m-3 " name="adminPw"
-                placeholder="Votre Mot de passe">
-        </div>
+                 <!-- email -->
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter email"> 
+                 </div>
+                <!-- mdp -->
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="mdp" name="mdp" placeholder="Password">
+                 </div>
+                <!-- adresse -->
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse" >
+                 </div>
+                <!-- pays -->
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="pays" name="pays" placeholder="Entrer votre pays">
+                 </div>
+                <!-- telephone -->
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="telephone" name="telephone" placeholder="Entrer telephone">
+                 </div>
 
-        <!-- le bouton submit -->
-        <!-- <a  >Connexion</a> -->
-        <input type="submit" class="btn btn-primary rounded-pill hover">
-    </form>
+                    <button type="submit" class="btn btn bouton_vert rounded-pill">Submit</button>
+                </form>
+
+             </div> 
+
+             <div class="col-md-6">
+
+                 <h1 class="text-center">Inscription</h1>
+
+             
+                 <form class="col-md-6  text-center form" method="Post">
+                 <div class="form-group">
+
+                    <input type="text" class="form-control rounded-pill text-center m-3 " name="adminEmail"
+                    placeholder="Votre@Email.com">
+                </div>
+
+
+               
+                 <div class="form-group">
+                    <input type="password" class="form-control rounded-pill text-center m-3 " name="adminPw"
+                    placeholder="Votre Mot de passe">
+                 </div>
+
+                <input type="submit" class="btn bouton_vert rounded-pill">
+                </form>
+
+             </div> 
+             
+             
+             <!-- <div class="col-md- mx-auto">   
+
+                <h1 class="text text-center">Connexion</h1>
+              
+
+                 <form class="col-md-4 text-center" method="Post">
+                 
+                 <div class="form-group">
+
+                    <input type="text" class="form-control rounded-pill text-center m-3 " name="adminEmail"
+                    placeholder="Votre@Email.com">
+                </div>
+
+
+               
+                 <div class="form-group">
+                    <input type="password" class="form-control rounded-pill text-center m-3 " name="adminPw"
+                    placeholder="Votre Mot de passe">
+                 </div>
+
+                <input type="submit" class="btn bouton_vert rounded-pill">
+                </form>
+            </div> -->
+
+         </div>
+            
 
 </body>
 

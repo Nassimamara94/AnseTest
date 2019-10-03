@@ -1,10 +1,13 @@
-/**************************************************** REGLAAGE GENERAUX ****************************************************/
-
-body {
-    background-color: #66a3a0 !important;
+*************************************************** REGLAGE GENERAUX ***************************************************
+* {
+  box-sizing: border-box;
 }
 
-.hover:hover {
+body {
+    background-color:#EAFCF4;
+}
+
+/* .hover:hover {
     color: black;
     background-color: #EAFCF4;
     color: rgb(36, 116, 190);
@@ -17,17 +20,28 @@ body {
 
 a {
     text-decoration: none;
+} */
+.bouton_vert{
+ background-color: #98C1D9;
+ color:white;
+ padding: 0.3rem 1rem;
+ border: none;
+}
+
+#inscription{
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 /********************************************************* CONNEXION *********************************************************/
-.form {
+/* .form {
     margin-top: 350px !important;
 
-}
+} */
+
 
 /***************************************************** ACCUEIL ADMIN *****************************************************/
 /* Hover list */
-.secondary:hover {
+/* .secondary:hover {
     background-color: #5a6268 !important;
     color: #fff;
 }
@@ -40,23 +54,23 @@ a {
 .primary:hover:hover {
     background-color: #0069d9 !important;
     color: #fff;
-}
+} */
 
 /* bootton de déconnexion */
-a>.btn .btn-danger .rounded-pill .offset-10 {
+/* a>.btn .btn-danger .rounded-pill .offset-10 {
     background: red !important;
     color: #fff;
     box-shadow: -6px 6px 0 blue;
-}
+} */
 
 /* Menu accueil admin */
-.listAdmin {
+/* .listAdmin {
     margin: 0 auto;
     margin-top: 15rem;
-}
+} */
 
 /********************************** DECONNEXION **********************************/
-.admin-btn {
+/* .admin-btn {
     top: 0;
     left: 0;
     transition: all .15s linear 0s;
@@ -70,4 +84,4 @@ a>.btn .btn-danger .rounded-pill .offset-10 {
     font-family: arial;
     letter-spacing: 1px;
     box-shadow: -6px 6px 0 black;
-}
+} */

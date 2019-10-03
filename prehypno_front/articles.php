@@ -21,7 +21,6 @@
 //     $contenu .= '</div>';
 //     $contenu .= '</div>';
 // }
-
 // $contenu .= '<div class="row";</div>';
 // $contenu .= '<div class="card mb-5 ml-5" style="max-width: 600px;">';
 // $contenu .= '<div class="row no-gutters">';
@@ -38,22 +37,19 @@
 // $contenu .= '</div>';
 // $contenu .= '</div>';
 // }
-
 ?>
 <!-- on met les 4 derniers articles puis on affichera la suite des articles sur les pages correspondantes -->
 <section class="container">
     <h1 class="text-center border border-success">Articles</h1>
-
-            <div class="row ">
-
-            <div class="col-md-6 ">
-             <div class="card mb-3 card" style="max-width: 540px;">
+            <div class="row bg-transparent mt-4">
+            <div class="col-md-6">
+             <div class="card mb-3 card bg-transparent" style="max-width: 540px;">
                  <div class="row no-gutters">
                      <div class="col-md-4">
-                     <img src="../prehypno2/img/logoAlpha.png" class="card-img" alt="logo du site">
+                     <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
                      </div>
             <div class="col-md-8">
-            <div class="card-body ">
+            <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
@@ -64,10 +60,10 @@
             </div>
             
             <div class="col-md-6">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
             <div class="row no-gutters">
             <div class="col-md-4">
-            <img src="../prehypno2/img/logoAlpha.png" class="card-img" alt="logo du site">
+            <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
             </div>
             <div class="col-md-8">
             <div class="card-body">
@@ -79,17 +75,13 @@
             </div>
             </div>
             </div>
-
  </div>  <!-- !fin row -->
-
-
    <div class="row">
-
             <div class="col-md-6">
-             <div class="card mb-3" style="max-width: 540px;">
+             <div class="card mb-3 bg-transparent" style="max-width: 540px;">
                  <div class="row no-gutters">
                      <div class="col-md-4">
-                     <img src="../prehypno2/img/logoAlpha.png" class="card-img" alt="logo du site">
+                     <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
                      </div>
             <div class="col-md-8">
             <div class="card-body">
@@ -103,10 +95,10 @@
             </div>
             
             <div class="col-md-6">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
             <div class="row no-gutters">
             <div class="col-md-4">
-            <img src="../prehypno2/img/logoAlpha.png" class="card-img" alt="logo du site">
+            <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
             </div>
             <div class="col-md-8">
             <div class="card-body">
@@ -118,10 +110,281 @@
             </div>
             </div>
             </div>
-
     </div><!--  Fin row -->
+   <div class="row">
+            <div class="col-md-6">
+             <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+                 <div class="row no-gutters">
+                     <div class="col-md-4">
+                     <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+                     </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="col-md-6">
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+            <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    </div><!--  Fin row -->
+   <div class="row">
+            <div class="col-md-6">
+             <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+                 <div class="row no-gutters">
+                     <div class="col-md-4">
+                     <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+                     </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="col-md-6">
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+            <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    </div><!--  Fin row -->
+   <div class="row">
+            <div class="col-md-6">
+             <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+                 <div class="row no-gutters">
+                     <div class="col-md-4">
+                     <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+                     </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="col-md-6">
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+            <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    </div><!--  Fin row -->
+   <div class="row">
+            <div class="col-md-6">
+             <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+                 <div class="row no-gutters">
+                     <div class="col-md-4">
+                     <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+                     </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="col-md-6">
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+            <!-- <img src="../prehypno_front/img/logoFavIconAlpha.png" class="card-img" alt="logo du site"> -->
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    </div><!--  Fin row -->
+    <hr>
+
+
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
+               <div class="col-md-12">
+                   <div class="card mb-2 card bg-transparent">
+              
+               <div class="col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title text text-center">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+                         En savoir plus
+                     </button>
+                </div>
+               </div> 
+              </div>
+          </div>
+        </div><!-- fin row article -->
+
 </section>
-
-
 <?php require_once 'inc/footer.inc.php' ?>
-

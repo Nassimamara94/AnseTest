@@ -30,12 +30,11 @@ em {
 .hover:hover {
   color: black;
   background-color: #EAFCF4;
-  color: rgb(36, 116, 190);
-  box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  color: #6C969D;
   background-color: #EAFCF4;
-  border: 2rem grey;
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 0.5s ease-in-out 0s;
+  cursor: pointer;
 }
 
 /*************************************** HEADER & FOOTER ***************************************/
@@ -54,16 +53,48 @@ a hr {
 }
 
 /****************************** header****************************************/
-.telephone{
-    cursor:default;
-}
+
 .bouton_vert{
- background-color: #3DA35D;
+ background-color: #98C1D9;
  color:white;
+ padding: 0.3rem 1rem;
+ border: none;
 }
+
+.bouton_vert.article{
+ background-color: transparent;
+ border: 2px solid #98C1D9;
+ color: #98C1D9;
+}
+
+.bouton_vert.voir_plus {
+  margin-bottom: 3rem;
+}
+
+.bouton_vert.blue {
+  font-size: 1.3rem;
+  background-color: #6C969D;
+}
+
+.button_image {
+  width: 3rem;
+  display: block;
+  margin: 2rem auto;
+}
+
+
 /*  */
 aside>p>i {
   font-size: 0.6rem;
+}
+
+#navbarSecondaire {
+  margin-left: 25.5rem;
+}
+
+.navbar-toggler {
+  margin-top: 2.5rem;
+  margin-left: 39.5rem;
 }
 
 /* Agir sur le nom Anne-Ceciele ROUGIER afin de le rendre gris avec une taille speciale afin de le descendre */
@@ -72,6 +103,10 @@ aside>p>i {
   text-align: justify;
   font-size: 40px;
 } */
+
+.img-thumbnail {
+  width: 100%;
+}
 
 .rounded :hover {
   width: 150px !important;
@@ -87,13 +122,16 @@ aside>p>i {
 4_appliquer le code du passage de la souris
 
 */
+
+footer {
+  width: 100%;
+}
 footer ul li .face {
   display: block;
   width: 60px;
   height: 60px;
   /* margin: 10px auto; */
-  border-radius: 50%;
-  margin: 2px;
+  margin: 3rem 0.2rem;
 }
 
 footer ul li .link {
@@ -101,9 +139,7 @@ footer ul li .link {
   width: 60px;
   height: 60px;
   /* margin: 10px auto; */
-  border-radius: 50%;
-  margin: 2px;
-
+  margin: 3rem 0.2rem;
 
 }
 
@@ -112,8 +148,7 @@ footer ul li .twit {
   width: 60px;
   height: 60px;
   /* margin: 10px auto; */
-  border-radius: 50%;
-  margin: 2px;
+  margin: 3rem 0.2rem;
 
 }
 
