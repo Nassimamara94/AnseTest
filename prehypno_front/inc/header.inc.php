@@ -25,6 +25,8 @@
 
 </head>
 
+<body>
+
 <div class="container">
     
 
@@ -33,94 +35,92 @@
             <!-- NavbarPrimaire -->
             <nav class="navbar navbar-expand-lg navbar-light col-md-12 mt-4">
 
-                <div class="col-md-2 text-center"  id="border">
+                <div class="col-md-2 text-center logo"  id="border">
 
                     <a href="index.php"><img src="img/logoFavIconAlpha.png" alt="logo préhypno"></a>
+                    <p>Anne-Cécile<br>ROUGIER</p>
 
                     <!-- + -->
 
                 </div>
 
-                <div class="col-md-3 text-center" id="border">
+                <div class="col-md-4 text-center" id="border">
 
                             <address><i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris </address>   
                            
-                            <button class="bouton_vert mx-auto badge-2x badge-pill telephone"><i class="fas fa-phone"></i>&nbsp 07 01 02 03 01</button>
+                            <button class="bouton_vert mx-auto badge-pill telephone"><i class="fas fa-phone"></i>&nbsp 07 01 02 03 01</button>
 
                 </div>
 
-                <div class="col-md-5 text-center"  id="border">
+                <div class="col-md-4 text-center"  id="border">
 
-                    <h2 class="titre1 mt-2">lorem ipsum</h2>
+                    <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
 
-                    <a href="rdv.php"><button class="bouton_vert mt-3 badge-2x badge-pill" target="_blank"><i class="fas fa-clock"></i> Prendre un RDV </button></a>
+                    <a href="rdv.php"><button class="bouton_vert mt-4 badge-pill" target="_blank"><i class="fas fa-clock"></i> Prendre un RDV </button></a>
                            
                 </div>
-
-                <div class="col-md-2 text-center"  id="border">
+ 
                 
-                    <div class="mt-3">
 
-                        <button class="bouton_vert mt-1 badge-2x badge-pill">Inscription</button>
+                   <div class="col-md-2 text-center">
 
-                    </div>
-
-                    <div class="mt-4">
-
-                    <a href="admin/connexion.php"><button class="mt-1 bouton_vert badge-2x badge-pill">Inscription/Connexion</button></a>
-
+                      <div>
+                    <a href="admin/connexion.php"><button class="bouton_vert badge-pill mt-4" target="_blank"><i class="fas fa-clock"></i> Inscription/<br>Connexion </button></a>
                     </div>
 
                 </div>
+ 
+
 
                 
             </nav><!-- fin #navbarPrimaire -->
 
-        </header>
+ 
     
 
-    <div class="row">
-        <div class="col">
-            <nav class="navbar navbar-inverse navbar-lg navbar-fixed-bottom navbar-light logo"
-                id="navbarSecondaire">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navbar navbar-inverse navbar-lg navbar-fixed-bottom navbar-light logo"
+                            id="navbarSecondaire">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
 
-              
-            <div class="collapse navbar-collapse text-align-center" id="navbarNav">
-                <ul class="navbar-nav mt-4">
-                    <div class="row"> 
-                        <li class="nav-item active ml-2">
-                            <a class="nav-link " href="qui.php">
-                                <span class="border border-light rounded-pill btn hover">L'hypnose pour qui ?</span>
-                            </a>
-                        </li>
-                        <li class="nav-item active ml-2">
-                            <a class="nav-link" href="seance.php">
-                                <span class="border border-light rounded-pill btn hover">Déroulé d'une séance</span>
-                            </a>
-                        </li>
-                        <li class="nav-item ml-2">
-                            <a class="nav-link" href="articles.php">
-                                <span class="border border-light rounded-pill btn hover">Articles</span>
-                            </a>
-                        </li>
-                        <li class="nav-item ml-2">
-                            <a class="nav-link" href="prez.php">
-                                <span class="border border-light rounded-pill btn hover">Anne-Cecile ROUGIER</span>
-                            </a>
-                        </li>
-                    </div>
-                </ul>
-            </div>
-        </nav>
-    </div>
+                        
+                        <div class="collapse navbar-collapse text-align-center" id="navbarNav">
+                            <ul class="navbar-nav mt-4">
+                                <div class="row"> 
+                                    <li class="nav-item active ml-2">
+                                        <a class="nav-link " href="qui.php">
+                                            <span class="border border-light rounded-pill btn hover">L'hypnose pour qui ?</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item active ml-2">
+                                        <a class="nav-link" href="seance.php">
+                                            <span class="border border-light rounded-pill btn hover">Déroulé d'une séance</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ml-2">
+                                        <a class="nav-link" href="articles.php">
+                                            <span class="border border-light rounded-pill btn hover">Articles</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ml-2">
+                                        <a class="nav-link" href="prez.php">
+                                            <span class="border border-light rounded-pill btn hover">Anne-Cecile ROUGIER</span>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                        </nav>
+                     </div>
+                 </div>
+         </header>
 
 
 
 <hr></a>
 <main class="row">
-</div>

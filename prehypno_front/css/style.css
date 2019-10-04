@@ -57,6 +57,16 @@ hr {
  padding: 0.3rem 1rem;
  border: none;
 }
+/* pour gérer la taille de la font sous le logo */
+.logo{
+  font-size: .8rem;
+  text-align: center;
+}
+/* pour gérer la taille du H1, trop grand si pas gérer */
+
+.accueil{
+  font-size: 1.4rem;
+}
 .telephone{
   cursor:default!important;
 }

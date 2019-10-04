@@ -40,7 +40,8 @@
 ?>
 <!-- on met les 4 derniers articles puis on affichera la suite des articles sur les pages correspondantes -->
 <section class="container">
-    <h1 class="text-center border border-success">Articles</h1>
+
+    <h3 class="col-md-12 text text-center mt-2">Articles :</h3>
             <div class="row bg-transparent mt-4">
             <div class="col-md-6">
              <div class="card mb-3 card bg-transparent" style="max-width: 540px;">
@@ -52,7 +53,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+            <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -69,7 +70,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -87,7 +88,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -104,7 +105,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -122,7 +123,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -139,7 +140,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -157,7 +158,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -174,7 +175,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -192,7 +193,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -209,7 +210,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -227,7 +228,7 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
@@ -244,147 +245,15 @@
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="#" class="btn btn-primary offset-6">En Savoir Plus</a>
+             <a href="#" class="btn bouton_vert article badge-2x badge-pill">En Savoir Plus</a>
             </div>
             </div>
             </div>
             </div>
             </div>
     </div><!--  Fin row -->
-    <hr>
+  
 
-
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
-
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
-
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
-
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
-        <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->
-               <div class="col-md-12">
-                   <div class="card mb-2 card bg-transparent">
-              
-               <div class="col-md-12">
-                <div class="card-body">
-                  <h5 class="card-title text text-center">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
-                         En savoir plus
-                     </button>
-                </div>
-               </div> 
-              </div>
-          </div>
-        </div><!-- fin row article -->
 
 </section>
 <?php require_once 'inc/footer.inc.php' ?>
