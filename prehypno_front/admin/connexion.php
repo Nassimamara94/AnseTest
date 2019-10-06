@@ -11,7 +11,7 @@ require_once("../inc/header.inc.php");
                  <h3>Inscription</h3>
 
              
-                 <form class="col-md-12 rounded-pill text-center m-3 mx-auto" method="Post">
+                 <form class="col-md-12 rounded-pill text-center mx-auto" method="Post">
                  <!-- nom -->
                  <div class="form-group">
                     <input type="text" class="form-control  rounded-pill text-center m-3" id="nom" placeholder="nom" name="nom" >
