@@ -2,7 +2,7 @@
 <div class="container offset-md-1">
     <div class="row">
         <div class="col-md-3 mr-5 mt-5 text-center">
-            <img src="img/pp.png" class="image-anne" alt="photo-profil">
+            <img src="img/pp.png" class="image-anne img-fluid" alt="photo-profil">
         </div>
         <div class="col-md-7 offset-md-1 mt-3">
             <h3 class="textNom text-secondary">Anne-Cécile ROUGIER</h3>

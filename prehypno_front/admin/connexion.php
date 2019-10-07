@@ -1,6 +1,6 @@
 <?php
 require_once("../inc/init.inc.php");
-require_once("../inc/header.inc.php");
+require_once("../inc/header2.inc.php");
 ?>
 
     
@@ -48,7 +48,7 @@ require_once("../inc/header.inc.php");
                     <input type="text" class="form-control  rounded-pill text-center m-3" id="telephone" name="telephone" placeholder="Entrer telephone">
                  </div>
 
-                    <button type="submit" class="btn btn bouton_vert rounded-pill">Submit</button>
+                    <button type="submit" class="btn btn bouton_vert rounded-pill mt-3">Submit</button>
                 </form>
 
              </div> 
@@ -74,7 +74,7 @@ require_once("../inc/header.inc.php");
                     placeholder="Votre Mot de passe">
                  </div>
 
-                <input type="submit" class="btn bouton_vert rounded-pill">
+                <input type="submit" class="btn bouton_vert rounded-pill mt-3">
                 </form>
 
              </div> 
