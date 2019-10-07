@@ -5,7 +5,7 @@
         
         <div class="row">  <!-- debut row -->
             <div class="col-md-6 mt-4">
-                <img src="img/photoes-hypnose/couples1.jpg" alt="couple thérapie">
+                <img src="img/photoes-hypnose/couples1.jpg"  class="img-fluid"  alt="couple thérapie">
             </div>
 
              <div class="col-md-6 mt-4">
@@ -41,15 +41,15 @@
              </div>
 
                 <div class="col-md-6 mt-4">                
-                 <img src="img/photoes-hypnose/regimes.jpg" alt="perte de poids ">
+                 <img src="img/photoes-hypnose/regimes.jpg"  class="img-fluid" alt="perte de poids ">
                 </div>
 
          </div> <!-- fin row -->
 
 
            <div class="row">  <!-- debut row -->
-                 <div class="col-md-6 mt-4">
-                      <img src="img/photoes-hypnose/adultes-adolescents.jpg" alt="couple thérapie">
+                 <div class="col-md-6 mt-4"> 
+                      <img src="img/photoes-hypnose/adultes-adolescents.jpg"  class="img-fluid" alt="couple thérapie">
                  </div>
 
                  <div class="col-md-6 mt-4 texte ">
@@ -84,7 +84,7 @@
              </div>
 
              <div class="col-md-6 mt-4">                
-                 <img src="img/photoes-hypnose/enfants2.jpg" alt="perte de poids ">
+                 <img src="img/photoes-hypnose/enfants2.jpg"   class="img-fluid" alt="perte de poids ">
              </div>
          </div> <!-- fin row -->
 
