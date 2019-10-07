@@ -1,12 +1,12 @@
 <?php require_once 'inc/header.inc.php' ?>
 <div class="container offset-md-1">
     <div class="row">
-        <div class="col-md-3 mr-4 mt-3">
+        <div class="col-md-3 mr-5 mt-5 text-center">
             <img src="img/pp.png" class="image-anne" alt="photo-profil">
         </div>
         <div class="col-md-7 offset-md-1 mt-3">
             <h3 class="textNom text-secondary">Anne-Cécile ROUGIER</h3>
-            <p>Hypnothérapeute dipolomée de l'IFHE</p>
+            <p class="mt-4">Hypnothérapeute dipolomée de l'IFHE</p>
 
             <p>Bonjour je m’appelle Anne-Cécile ROUGIER, j'ai eu une première vie où pendant plus de 10 ans, j'ai
                 accompagné des cadres dans leurs projets professionnels et personnels avec l’envie constante de les

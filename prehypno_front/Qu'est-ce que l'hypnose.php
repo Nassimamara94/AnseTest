@@ -15,7 +15,7 @@
 <section class="container">
 <div class="row">
         <!-- PP de la Thérapeute -->
-        <div class="col-md-3 mt-5 ml-4 first-margin">
+        <div class="col-md-3 mt-5 first-margin">
             <a href="prez.php?page=prez" title="qui suis-je ?"><img src="img/pp.png"
                     class="img-thumbnail rounded-circle" alt="photo profil"></a>
         </div><!-- Fin col-md-2 -->
@@ -24,17 +24,17 @@
         <div class="col-md-6 mt-5">
 
             <!-- Titre -->
-            <h2 class="mt-2 mb-5">Qu'est-ce que l'hypnose ?</h2>
+            <h2 class="mt-2 mb-5 offset-2">Qu'est-ce que l'hypnose ?</h2>
 
             <!-- Premier paragraphe -->
-            <p>Avez-vous déjà eu un problème de stress ou avez-vous déjà voulu arrêter de fumer, mais vous avez toujours échoué?
+            <p class="offset-2">Avez-vous déjà eu un problème de stress ou avez-vous déjà voulu arrêter de fumer, mais vous avez toujours échoué?
 </p>
-            <p>Et si tu me laissais t'aider?</p>
+            <p class="offset-2">Et si tu me laissais t'aider?</p>
             
         </div>
     <div class="row">
     
-        <div class="col-md-12" id="para">
+        <div class="col-md-12 mt-4" id="para">
             <p class="justify-content mt-2">Fréquemment posée, cette question ouvre à d’innombrables réponses. Aussi, pour y répondre simplement, il suffit de se mettre en situation : Vous est-il déjà arrivé(e) d’avoir l’esprit ailleurs, d’être dans la lune ? Vous être en train de conduire, dans les transports, ou lorsque vous fixez une bougie… Mieux encore, vous n’entendez plus rien, vous êtes devant votre écran, vous n’êtes plus connecté(e). C'est un état naturel dans lequel vous vous retrouvez quotidiennement. </p>
 
 

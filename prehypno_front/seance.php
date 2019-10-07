@@ -55,7 +55,7 @@
             <p>Le nombre de séances est variable mais il s’agit de thérapie brève. En fonction des situations et des
                 personnes, je pourrais être amenée à vous proposer des « petits exercices » à faire entre nos séances.
             </p><br>
-            <h4>Je n'attends plus que vous !</h4>
+            <h4 class="mt-2">Je n'attends plus que vous !</h4>
             </p>
         </section>
         <p class="para offset-md-8 mt-5">
