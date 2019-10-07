@@ -4,14 +4,15 @@ require_once("../inc/header.inc.php");
 ?>
 
     
+    <div class="container">
        <div class="row mx-auto"> <!-- debut row -->
            
-            <div class="col-md-6 mx-auto" id="inscription">
+            <div class="col-md-6 text-center" id="inscription">
 
                  <h3>Inscription</h3>
 
              
-                 <form class="col-md-12 rounded-pill text-center m-3 mx-auto" method="Post">
+                 <form class="col-md-10 rounded-pill text-center mt-4 mx-auto " method="Post">
                  <!-- nom -->
                  <div class="form-group">
                     <input type="text" class="form-control  rounded-pill text-center m-3" id="nom" placeholder="nom" name="nom" >
@@ -56,10 +57,10 @@ require_once("../inc/header.inc.php");
 
 
 
-                 <h3 class="text-center offset-4">Connexion</h3>
+                 <h3 class="text-center">Connexion</h3>
 
              
-                 <form class="col-md-12  text-center form mx-auto" method="Post">
+                 <form class="col-md-10  text-center form mt-4 mx-auto" method="Post">
                  <div class="form-group">
 
                     <input type="text" class="form-control rounded-pill text-center m-3 " id=" adminEmail" name="adminEmail"
@@ -78,34 +79,9 @@ require_once("../inc/header.inc.php");
 
              </div> 
        </div>   <!-- fin row -->
-             
-             
-             <!-- <div class="col-md- mx-auto">   
 
-                <h1 class="text text-center">Connexion</h1>
-              
-
-                 <form class="col-md-4 text-center" method="Post">
-                 
-                 <div class="form-group">
-
-                    <input type="text" class="form-control rounded-pill text-center m-3 " name="adminEmail"
-                    placeholder="Votre@Email.com">
-                </div>
-
-
-               
-                 <div class="form-group">
-                    <input type="password" class="form-control rounded-pill text-center m-3 " name="adminPw"
-                    placeholder="Votre Mot de passe">
-                 </div>
-
-                <input type="submit" class="btn bouton_vert rounded-pill">
-                </form>
-            </div> -->
-
-          <!-- </div> -->
-            
+       </div>
+                        
 
 </body>
 
