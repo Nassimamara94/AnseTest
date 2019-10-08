@@ -1,10 +1,13 @@
 <?php require_once 'inc/header.inc.php' ?>
-<div class="container offset-md-1">
+<div class="container">
+
     <div class="row">
+
         <div class="col-md-3 mr-5 mt-5 text-center">
-            <img src="img/pp.png" class="image-anne img-fluid" alt="photo-profil">
+            <img src="img/pp.png" class="image-anne img-fluid ml-4" alt="photo-profil">
         </div>
-        <div class="col-md-7 offset-md-1 mt-3">
+
+        <div class="col-md-7 offset-md-1 mt-3 text-justify">
             <h3 class="textNom text-secondary">Anne-Cécile ROUGIER</h3>
             <p class="mt-4">Hypnothérapeute dipolomée de l'IFHE</p>
 
@@ -18,13 +21,12 @@
                 suivi à l’Institut Français d’Hypnose Ericksonienne et Humaniste (IFHE) dont je suis diplômée. Ceci m’a
                 permis d’étoffer mes compétences et outils pour vraiment placer l'Homme au centre. Et je continue de me
                 former régulièrement afin de pouvoir vous accompagner au mieux.</p>
-        </div>
 
-        <em class="col-md-4 offset-6 mb-3">« Nous sommes ce que nous sommes. Tout ce que nous sommes résulte de nos
-            pensées.
-            Avec nos
-            pensées, nous bâtissons notre monde » Bouddha.
-        </em>
+                <p class="col-md-9 offset-3 text-justify"><em>« Nous sommes ce que nous sommes. Tout ce que nous sommes résulte de nos pensées. Avec nos pensées, nous bâtissons notre monde » Bouddha.</em>
+                </p>
+        </div>        
+
+       
     </div>
     <!-- FIN .row -->
 </div>

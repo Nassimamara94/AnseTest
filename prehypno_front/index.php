@@ -6,7 +6,7 @@
         <!-- PP de la Thérapeute -->
         <div class="col-md-3 offset-1 mt-4">
             <a href="prez.php?page=prez" title="qui suis-je ?"><img src="img/pp.png" 
-                    class="img-thumbnail rounded-circle" alt="photo profil"></a>
+                    class="image-anne rounded-circle" alt="photo profil"></a>
         </div><!-- Fin col-md-2 -->
 
 
@@ -17,7 +17,7 @@
 
             <!-- Premier paragraphe -->
             <p>Avez-vous déjà eu un problème de stress ou avez-vous déjà voulu arrêter de fumer, mais vous avez toujours échoué?</p>
-            <p>Et si tu me laissais t'aider?</p>
+            <p>Et si Vous me laissiez vous aider?</p>
             <br>
             <br>
             <p class="offset-8 signature"> Anne-Cécile ROUGIER <br> Hypno-thérapeute</p>
