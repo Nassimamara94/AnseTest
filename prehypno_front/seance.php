@@ -2,15 +2,15 @@
 
 <div class="container">
 
-    <h3 class=" col-md-12 m-5 text text-center mt-2">Dérouler d'une séance :</h3>
+    <h3 class=" col-md-12 m-5 text text-center mt-5">Dérouler d'une séance :</h3>
 
      <div class="row">
-         <div class="col-md-6">
+         <div class="col-md-6 mt-2">
 
         <img src="img/cabinet.jpg" class="img-cabinet rounded-circle  height:200px;  col-md-10 mb-5 ">
         
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-2">
 
             <p>Nous commencerons par un échange au cours duquel nous définirons ensemble votre ou vos objectifs et la
                 manière de les atteindre durablement. Je vous accompagne toujours avec bienveillance et respect, sans
@@ -26,7 +26,7 @@
 
         <div class="row"> <!-- début row -->
         
-             <div class="col-md-6">
+             <div class="col-md-6 mt-2">
 
                 <p>S’ensuivront une ou plusieurs séances, vous ne ferez rien que vous n’auriez pas envie de faire, loin de
                 perdre le contrôle, vous vous souviendrez de tout, vous parlerez et interagirez avec moi durant la
@@ -42,7 +42,7 @@
              </div>
              
 
-         <div class="col-md-6">
+         <div class="col-md-6 mt-2">
             <img src="img/cabinet.jpg" class="img-cabinet rounded-circle  height:200px;  col-md-10 ml-5 ">
          </div>
 

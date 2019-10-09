@@ -1,32 +1,60 @@
-<?php require_once 'inc/header.inc.php' ?>
+<?php 
+require_once 'inc/init.inc.php';
+require_once 'inc/header.inc.php' ;
 
-<div class="col-md-12">
-    <div class="row">
+$contenu="";
+
+// AFFICHAGE DES 3 DERNIERS ARTICLES
+$resultat = $pdo->prepare("SELECT * FROM articles ORDER BY dateArt DESC LIMIT 3");
+$resultat->execute();
+ while ($articles = $resultat->fetch(PDO::FETCH_ASSOC)) : 
+
+    $contenu .='<div class="card text-center col-md-3 mb-5">';
+        $contenu .='<div class="card-header">';
+            $contenu.='<h5>'.$articles['titleArticle'].'</h5>';
+        $contenu .='</div>';
+        $contenu .='<div class="card-body">';
+            $contenu .='<p class="card-text class="card-text">'.substr($articles['article'], 0, 100).'...</p>';
+            $contenu .='<a href="#">'.'Paru le '.$articles['dateArt'] .'</a>';
+        $contenu .='</div>';
+            $contenu .='<div class="card-footer text-muted">';
+                $contenu .='<button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">'.'Lire Plus'.'</button>';
+            $contenu .='</div>';
+    $contenu .='</div>';
+
+    // <button class="btn bouton_vert article badge-2x badge-pill" type="button" data-toggle="modal" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample1">
+    //                      En savoir plus
+    //                  </button>
+
+ endwhile;?>
+ 
+
+    <div class="row mx-auto">
 
         <!-- PP de la Thérapeute -->
-        <div class="col-md-3 offset-1 mt-4">
+        <div class=" col-sm-7 col-md-6 col-lg-4 mt-5 mx-auto">
             <a href="prez.php?page=prez" title="qui suis-je ?"><img src="img/pp.png" 
-                    class="image-anne rounded-circle" alt="photo profil"></a>
+                    class="rounded-circle img-fluid mx-auto " alt="photo de profil"></a>
         </div><!-- Fin col-md-2 -->
 
 
-        <div class="col-md-6 offset-1 mt-5">
+        <div class="col-md-6 mx-auto mt-5">
 
             <!-- Titre -->
             <h2 class="mt-2 mb-5">Qu'est-ce que l'hypnose ?</h2>
 
             <!-- Premier paragraphe -->
             <p>Avez-vous déjà eu un problème de stress ou avez-vous déjà voulu arrêter de fumer, mais vous avez toujours échoué?</p>
-            <p>Et si Vous me laissiez vous aider?</p>
+            <p>Et si vous me laissiez vous aider?</p>
             <br>
             <br>
             <p class="offset-8 signature"> Anne-Cécile ROUGIER <br> Hypno-thérapeute</p>
             <br>
             <br>
-            <a href="../prehypno_front/Qu'est-ce que l'hypnose.php"><button class="bouton_vert blue voir_plus ml-4 mt-1 badge-2x badge-pill">Voir plus</button></a>
+            <a href="../prehypno_front/Qu'est-ce que l'hypnose.php"><button class="bouton_vert blue voir_plus ml-4 mt-1 badge-2x badge-pill ">Voir plus</button></a>
           
         </div>
-    </div>
+
     </div>
 
       <hr>
@@ -34,7 +62,7 @@
         
    
 
-            <div class="row bg-transparent mt-4">
+            <!-- <div class="row bg-transparent mt-4"> -->
 
             <!-- <div class="col-md-6">
              <div class="card mb-3 card bg-transparent" style="max-width: 540px;">
@@ -84,6 +112,14 @@
             </div>
 
  </div>  !fin row -->
+
+ <!-- début de la row/boucle qui va afficher les trois derniers articles -->
+    <div id="container" class="row">
+
+    <?= $contenu;?>
+
+    </div>
+    <!-- fin de la row -->
 
 
 <div class="row bg-transparent mt-4 offset-1"> <!-- debut row article -->

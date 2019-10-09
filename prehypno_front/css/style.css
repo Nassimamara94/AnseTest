@@ -12,6 +12,7 @@ html{
    font-family: 'Lora', sans-serif !important;
 }
 
+
 /*************************************** font général  ***************************************
 
 /* p {
@@ -44,7 +45,7 @@ em {
 } */
 
 hr {
-  width: 75rem;
+  width: 100%;
   border: 1px solid #d3d3d3;
 }
 
@@ -97,15 +98,17 @@ hr {
 aside>p>i {
   font-size: 0.6rem;
 }
-
+/* 
 #navbarSecondaire {
   margin-left: 25.5rem;
-}
+} */
 
 .navbar-toggler {
   margin-top: 2.5rem;
-  margin-left: 39.5rem;
+  /* margin-left: 39.5rem; */
 }
+
+
 
 /* Agir sur le nom Anne-Ceciele ROUGIER afin de le rendre gris avec une taille speciale afin de le descendre */
 /* .textNom {
@@ -116,6 +119,7 @@ aside>p>i {
 
 .img-thumbnail {
   width: 100%;
+  height: auto;
 }
 
 .rounded :hover {
@@ -175,7 +179,7 @@ footer ul li .twit {
   height: auto;
 }
 /* redimensionner l'image de profil */
- .image-anne {
+ /* .image-anne {
   display: block;
   width: 250px;
   height: 250px;
@@ -183,10 +187,22 @@ footer ul li .twit {
   border-radius: 50%;
   margin: 2px;
 
-} 
+}  */
 .signature{
   position: relative;
   margin-top: -2.5rem;
+}
+
+/* css particulier (flexbox qui va la répartir de manière égale dans sa row avec le space around) a la card article dans la boucle */
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  display: inline-block;
+  position: relative;
+  background-color: #EAFCF4;
 }
 
 /*  */

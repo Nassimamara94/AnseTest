@@ -79,7 +79,7 @@
     
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-12">
                         <nav class="navbar navbar-inverse navbar-lg navbar-fixed-bottom navbar-light logo"
                             id="navbarSecondaire">
 
@@ -89,32 +89,32 @@
                             </button>
 
                         
-                        <div class="collapse navbar-collapse text-align-center" id="navbarNav">
-                            <ul class="navbar-nav mt-4">
-                                <div class="row"> 
-                                    <li class="nav-item active ml-2">
-                                        <a class="nav-link " href="qui.php">
-                                            <span class="border border-light rounded-pill btn hover">L'hypnose pour qui ?</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item active ml-2">
-                                        <a class="nav-link" href="seance.php">
-                                            <span class="border border-light rounded-pill btn hover">Déroulé d'une séance</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item ml-2">
-                                        <a class="nav-link" href="articles.php">
-                                            <span class="border border-light rounded-pill btn hover">Articles</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item ml-2">
-                                        <a class="nav-link" href="prez.php">
-                                            <span class="border border-light rounded-pill btn hover">Anne-Cecile ROUGIER</span>
-                                        </a>
-                                    </li>
-                                </div>
-                            </ul>
-                        </div>
+                            <div class="collapse navbar-collapse text-align-center" id="navbarNav">
+                                <ul class="navbar-nav mt-4">
+                                    <div class="row"> 
+                                        <li class="nav-item active ml-2">
+                                            <a class="nav-link " href="qui.php">
+                                                <span class="border border-light rounded-pill btn hover">L'hypnose pour qui ?</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item active ml-2">
+                                            <a class="nav-link" href="seance.php">
+                                                <span class="border border-light rounded-pill btn hover">Déroulé d'une séance</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item ml-2">
+                                            <a class="nav-link" href="articles.php">
+                                                <span class="border border-light rounded-pill btn hover">Articles</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item ml-2">
+                                            <a class="nav-link" href="prez.php">
+                                                <span class="border border-light rounded-pill btn hover">Anne-Cecile ROUGIER</span>
+                                            </a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
                         </nav>
                      </div>
                  </div>

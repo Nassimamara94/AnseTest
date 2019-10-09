@@ -4,7 +4,7 @@
     <div class="container">
         
         <div class="row">  <!-- debut row -->
-            <div class="col-md-6 mt-4">
+            <div class="col-md-6 mt-5">
                 <img src="img/photoes-hypnose/couples1.jpg"  class="img-fluid"  alt="couple thérapie">
             </div>
 

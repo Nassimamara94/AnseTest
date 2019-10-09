@@ -41,8 +41,8 @@
 <!-- on met les 4 derniers articles puis on affichera la suite des articles sur les pages correspondantes -->
 <section class="container">
 
-    <h3 class="col-md-12 text text-center mt-2">Articles :</h3>
-            <div class="row bg-transparent mt-4">
+    <h3 class="col-md-12 text text-center mt-5">Articles :</h3>
+            <div class="row bg-transparent mt-5">
             <div class="col-md-6">
              <div class="card mb-3 card bg-transparent" style="max-width: 540px;">
                  <div class="row no-gutters">

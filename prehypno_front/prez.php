@@ -1,17 +1,14 @@
 <?php require_once 'inc/header.inc.php' ?>
-<div class="container">
-
+<div class="container offset-md-1">
     <div class="row">
-
-        <div class="col-md-3 mr-5 mt-5 text-center">
-            <img src="img/pp.png" class="image-anne img-fluid ml-4" alt="photo-profil">
+        <div class="col-sx-2 col-sm-2 col-md-6 col-lg-4 mt-4 mx-auto mr-4 mt-3">
+            <img src="img/pp.png" class="rounded-circle img-fluid mx-auto mt-5" alt="photo-profil">
         </div>
-
         <div class="col-md-7 offset-md-1 mt-3 text-justify">
-            <h3 class="textNom text-secondary">Anne-Cécile ROUGIER</h3>
-            <p class="mt-4">Hypnothérapeute dipolomée de l'IFHE</p>
+            <h3 class="mt-5">Anne-Cécile ROUGIER</h3>
+            <p class="mt-4">Hypnothérapeute diplomée de l'IFHE</p>
 
-            <p>Bonjour je m’appelle Anne-Cécile ROUGIER, j'ai eu une première vie où pendant plus de 10 ans, j'ai
+            <p class="mt-5">Bonjour je m’appelle Anne-Cécile ROUGIER, j'ai eu une première vie où pendant plus de 10 ans, j'ai
                 accompagné des cadres dans leurs projets professionnels et personnels avec l’envie constante de les
                 aider à avancer, à croire en eux-mêmes et en leurs capacités... Cependant, les outils mis à ma
                 disposition n’étant pas suffisants, je me suis tournée vers d’autres voies et l’hypnose a indéniablement
@@ -21,12 +18,13 @@
                 suivi à l’Institut Français d’Hypnose Ericksonienne et Humaniste (IFHE) dont je suis diplômée. Ceci m’a
                 permis d’étoffer mes compétences et outils pour vraiment placer l'Homme au centre. Et je continue de me
                 former régulièrement afin de pouvoir vous accompagner au mieux.</p>
+        </div>
 
-                <p class="col-md-9 offset-3 text-justify"><em>« Nous sommes ce que nous sommes. Tout ce que nous sommes résulte de nos pensées. Avec nos pensées, nous bâtissons notre monde » Bouddha.</em>
-                </p>
-        </div>        
-
-       
+        <em class="col-md-4 offset-8 mb-3 mt-2 text-justify">« Nous sommes ce que nous sommes. Tout ce que nous sommes résulte de nos
+            pensées.
+            Avec nos
+            pensées, nous bâtissons notre monde » Bouddha.
+        </em>
     </div>
     <!-- FIN .row -->
 </div>
