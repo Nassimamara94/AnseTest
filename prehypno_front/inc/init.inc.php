@@ -16,10 +16,12 @@ try {
 // SESSION :
 session_start();
 //------ CHEMIN
-define("RACINE_SITE", $_SERVER['DOCUMENT_ROOT'] . '/anse/hhp2');
+define("RACINE_SITE", $_SERVER['DOCUMENT_ROOT'] . '/AnseTest/prehypno_front/');
 // $_SERVER['DOCUMENT_ROOT'] --> C:/xampp/htdocs
 // Lors de l'enregistrement d'image / photos, nous aurons besoin du chemin physique complet pour enregistrer la photo dans le bon dossier
 // echo RACINE_SITE;
-define("URL", "http://localhost/anse/hhp");
+define("URL", "http://localhost/AnseTest/prehypno_front/");
 //echo URL;
 // cette constante servira entre autre à enregistrer l'URL d'une photo / image dans la BDD, on ne conserve jamais la photo elle même, ce serait trop lourd pour la BDD
+
+require_once 'fonction.php';

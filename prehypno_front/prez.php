@@ -1,13 +1,13 @@
-<?php require_once 'inc/header.inc.php' ?>
+<?php require_once 'inc/init.inc.php';
+      require_once 'inc/header.inc.php'; ?>
 <div class="container offset-md-1">
     <div class="row">
         <div class="col-sx-2 col-sm-2 col-md-6 col-lg-4 mt-4 mx-auto mr-4 mt-3">
-            <img src="img/pp.png" class="rounded-circle img-fluid mx-auto mt-5" alt="photo-profil">
+            <img src="lib/img/pp.png" class="rounded-circle img-fluid mx-auto mt-5" alt="photo-profil">
         </div>
         <div class="col-md-7 offset-md-1 mt-3 text-justify">
             <h3 class="mt-5">Anne-Cécile ROUGIER</h3>
             <p class="mt-4">Hypnothérapeute diplomée de l'IFHE</p>
-
             <p class="mt-5">Bonjour je m’appelle Anne-Cécile ROUGIER, j'ai eu une première vie où pendant plus de 10 ans, j'ai
                 accompagné des cadres dans leurs projets professionnels et personnels avec l’envie constante de les
                 aider à avancer, à croire en eux-mêmes et en leurs capacités... Cependant, les outils mis à ma
@@ -19,7 +19,6 @@
                 permis d’étoffer mes compétences et outils pour vraiment placer l'Homme au centre. Et je continue de me
                 former régulièrement afin de pouvoir vous accompagner au mieux.</p>
         </div>
-
         <em class="col-md-4 offset-8 mb-3 mt-2 text-justify">« Nous sommes ce que nous sommes. Tout ce que nous sommes résulte de nos
             pensées.
             Avec nos
@@ -29,5 +28,4 @@
     <!-- FIN .row -->
 </div>
 <!-- FIN .container -->
-
 <?php require_once 'inc/footer.inc.php' ?>

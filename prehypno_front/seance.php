@@ -1,33 +1,25 @@
-<?php require_once 'inc/header.inc.php' ?>
+<?php require_once 'inc/init.inc.php';
+      require_once 'inc/header.inc.php'; ?>
 
 <div class="container">
-
-    <h3 class=" col-md-12 m-5 text text-center mt-5">Dérouler d'une séance :</h3>
-
-     <div class="row">
-         <div class="col-md-6 mt-2">
-
-        <img src="img/cabinet.jpg" class="img-cabinet rounded-circle  height:200px;  col-md-10 mb-5 ">
-        
-        </div>
-        <div class="col-md-6 mt-2">
-
-            <p>Nous commencerons par un échange au cours duquel nous définirons ensemble votre ou vos objectifs et la
-                manière de les atteindre durablement. Je vous accompagne toujours avec bienveillance et respect, sans
-                jugement et de manière personnalisée.
-            </p><br>
-
-             <p>Nous commencerons par un échange au cours duquel nous définirons ensemble votre ou vos objectifs et la
-                manière de les atteindre durablement. Je vous accompagne toujours avec bienveillance et respect, sans
-                jugement et de manière personnalisée.
-            </p><br>
-        </div>
-     </div>
-
-        <div class="row"> <!-- début row -->
-        
+     <h3 class=" col-md-12 m-5 text text-center mt-5">Dérouler d'une séance :</h3>
+         <div class="row">
              <div class="col-md-6 mt-2">
-
+                 <img src="lib/img/cabinet.jpg" class="img-cabinet rounded-circle  height:200px;  col-md-10 mb-5 "> 
+             </div>
+                 <div class="col-md-6 mt-2">
+                     <p>Nous commencerons par un échange au cours duquel nous définirons ensemble votre ou vos objectifs et la
+                     manière de les atteindre durablement. Je vous accompagne toujours avec bienveillance et respect, sans
+                     jugement et de manière personnalisée.
+                     </p><br>
+                     <p>Nous commencerons par un échange au cours duquel nous définirons ensemble votre ou vos objectifs et la
+                     manière de les atteindre durablement. Je vous accompagne toujours avec bienveillance et respect, sans
+                     jugement et de manière personnalisée.
+                     </p><br>
+                 </div>
+           </div>
+        <div class="row"> <!-- début row -->
+             <div class="col-md-6 mt-2">
                 <p>S’ensuivront une ou plusieurs séances, vous ne ferez rien que vous n’auriez pas envie de faire, loin de
                 perdre le contrôle, vous vous souviendrez de tout, vous parlerez et interagirez avec moi durant la
                 séance.
@@ -40,14 +32,10 @@
                 trame jusqu’à atteindre l’objectif que vous vous étiez fixé.
                 </p><br>
              </div>
-             
-
-         <div class="col-md-6 mt-2">
-            <img src="img/cabinet.jpg" class="img-cabinet rounded-circle  height:200px;  col-md-10 ml-5 ">
-         </div>
-
+             <div class="col-md-6 mt-2">
+                    <img src="lib/img/cabinet.jpg" class="img-cabinet rounded-circle  height:200px;  col-md-10 ml-5 ">
+             </div>
         </div> <!-- fin row -->
-
             <p class="mt-4">L’état hypnotique garantit l’efficacité du soin et la mise en place du nouveau comportement. Ce n’est pas
                 de
                 l’hypnose de spectacle mais bien de l’hypnose thérapeutique.
@@ -57,11 +45,9 @@
             </p><br>
             <h4 class="mt-2">Je n'attends plus que vous !</h4>
             </p>
-        </section>
+     <div>
         <p class="para offset-md-8 mt-5">
             << Fais de ta vie un réve, une réalité>> Antoine de saint-Exupery
     </div>
 </div>
-
-
 <?php require_once 'inc/footer.inc.php' ?>

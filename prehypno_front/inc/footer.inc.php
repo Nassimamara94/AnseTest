@@ -1,20 +1,18 @@
 </main> <!-- Fin main -->
-
     <footer class="footer mt-auto p-3y">
         <div class="container mt-5">
             <ul class="nav justify-content-center">
                 <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn">
-                    <img src="img/social-media.png"
+                    <img src="lib/img/social-media.png"
                             alt="logo-facebook" class="face hover">
                         </a></li>
-                <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn"><img src="img/linkedin.png"
+                <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn"><img src="lib/img/linkedin.png"
                             alt="logo-linkedin" class="twit hover"></a></li>
-                <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn"><img src="img/twitter.png" r
+                <li><a href="#" class="col-md-4 col-lg-4 col-sm-12 col-xs-12 btn"><img src="lib/img/twitter.png"
                             alt="logo-twitter" class="link hover"></a></li>
             </ul>
         </div>
     </footer><!-- Fin footer -->
-
 </div> <!-- Fin div container -->
 
 <!-- Lien CDN JS -->
@@ -35,7 +33,6 @@
     </script>
     <!-- jQuery perso -->
     <script src="js/jQuery.js" type="text/javascript"></script>
-
 
 </body>
 

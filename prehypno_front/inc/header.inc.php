@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,66 +18,119 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
     <!-- Lien CSS personel -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?= URL ?>lib/css/style.css">
     <!-- Lien CSS personel -->
-    <link rel="stylesheet" href="../css/admin-style.css">
-
+    <link rel="stylesheet" href="<?= URL ?>lib/css/admin-style.css">
 </head>
-
 <body>
-
 <div class="container">
-    
-
         <header class="row">
-
             <!-- NavbarPrimaire -->
             <nav class="navbar navbar-expand-lg navbar-light col-md-12 mt-4">
-
+                 <?php if(internauteEstConnecte()):// accès membre connecté non ADMIN ?> 
                 <div class="col-md-2 text-center logo"  id="border">
-
-                    <a href="index.php"><img src="img/logoFavIconAlpha.png" alt="logo préhypno"></a>
+                    <a href="index.php"><img src="lib/img/logoFavIconAlpha.png" alt="logo préhypno"></a>
                     <p>Anne-Cécile<br>ROUGIER</p>
-
                     <!-- + -->
-
                 </div>
-
                 <div class="col-md-4 text-center" id="border">
-
-                            <address><i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris </address>   
-                           
-                            <button class="bouton_vert mx-auto badge-pill telephone"><i class="fas fa-phone"></i>&nbsp 07 01 02 03 01</button>
-
-                </div>
-
+                             <address>
+                             <i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris
+                             </address>    
+                                <button class="bouton_vert mx-auto badge-pill telephone">
+                                    <i class="fas fa-phone"></i>
+                                        &nbsp 07 01 02 03 01
+                                </button>
+                 </div>
                 <div class="col-md-4 text-center"  id="border">
-
-                    <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
-
-                    <a href="rdv.php"><button class="bouton_vert mt-4 badge-pill" target="_blank"><i class="fas fa-clock"></i> Prendre un RDV </button></a>
-                           
+                        <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
+                        <a href="rdv.php">
+                            <button class="bouton_vert mt-4 badge-pill" target="_blank">
+                                <i class="fas fa-clock"> </i> Prendre un RDV 
+                            </button></a>          
                 </div>
- 
-                
-
-                   <div class="col-md-2 text-center">
-
-                      <div>
-                    <a href="admin/connexion.php"><button class="bouton_vert badge-pill mt-4" target="_blank"><i class="fas fa-clock"></i> Inscription/<br>Connexion </button></a>
+                <div class="col-md-2 text-center">
+                    <div>
+                        <a href="profil.php">
+                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Profil
+                             </button>
+                         </a>
+                         <a href="deconnexion.php">
+                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Déconnexion
+                             </button>
+                         </a>
                     </div>
+                </div>              
+    <?php else: // accès visiteur non connecté ?>
+            <div class="col-md-2 text-center logo"  id="border">
+                    <a href="index.php"><img src="lib/img/logoFavIconAlpha.png" alt="logo préhypno">
+                    </a>
+                    <p>Anne-Cécile<br>ROUGIER</p>
+                    <!-- + -->
+             </div>
+            <div class="col-md-4 text-center" id="border">
+                 <address>
+                     <i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris
+                 </address>    
+                 <button class="bouton_vert mx-auto badge-pill telephone">
+                     <i class="fas fa-phone"></i> &nbsp 07 01 02 03 01
+                 </button>
+             </div>
+            <div class="col-md-4 text-center"  id="border">
+                 <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
+                     <a href="rdv.php">
+                         <button class="bouton_vert mt-4 badge-pill" target="_blank">
+                            <i class="fas fa-clock"> </i> Prendre un RDV 
+                         </button>
+                     </a>          
+             </div>
+            <div class="col-md-2 text-center">
+                 <div>
+                     <a href="admin/connexion.php">
+                        <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Inscription/<br>Connexion
+                        </button>
+                     </a>
+                 </div>
+             </div>    
+    <?php endif; ?>
 
+    <?php if(internauteEstConnecteEtEstAdmin()): // si mon statut est à 1 on rentre dans la condition ?>     
+                <div class="col-md-2 text-center logo"  id="border">
+                    <a href="index.php"><img src="lib/img/logoFavIconAlpha.png" alt="logo préhypno"></a>
+                    <p>Anne-Cécile<br>ROUGIER</p>
+                    <!-- + -->
                 </div>
- 
-
-
-                
-            </nav><!-- fin #navbarPrimaire -->
-
- 
-    
-
-                <div class="row">
+                <div class="col-md-4 text-center" id="border">
+                     <address>
+                         <i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris
+                     </address>    
+                             <button class="bouton_vert mx-auto badge-pill telephone">
+                                 <i class="fas fa-phone"></i> &nbsp 07 01 02 03 01
+                             </button>
+                 </div>
+                <div class="col-md-4 text-center"  id="border">
+                     <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
+                         <a href="rdv.php">
+                             <button class="bouton_vert mt-4 badge-pill" target="_blank">
+                                     <i class="fas fa-clock"> </i> Prendre un RDV 
+                             </button>
+                         </a>          
+                </div>
+                <div class="col-md-2 text-center">
+                     <div>
+                         <a href="admin.php">
+                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Admin
+                             </button>
+                         </a>
+                         <a href="deconnexion.php">
+                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Déconnexion
+                             </button>
+                         </a>
+                     </div>
+                </div>  
+                   <?php endif; ?>
+       </nav><!-- fin #navbarPrimaire -->
+              <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-inverse navbar-lg navbar-fixed-bottom navbar-light logo"
                             id="navbarSecondaire">
@@ -87,8 +139,6 @@
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>
-
-                        
                             <div class="collapse navbar-collapse text-align-center" id="navbarNav">
                                 <ul class="navbar-nav mt-4">
                                     <div class="row"> 
@@ -110,17 +160,14 @@
                                         <li class="nav-item ml-2">
                                             <a class="nav-link" href="prez.php">
                                                 <span class="border border-light rounded-pill btn hover">Anne-Cecile ROUGIER</span>
-                                            </a>
-                                        </li>
-                                    </div>
-                                </ul>
-                            </div>
-                        </nav>
+                                             </a>
+                                         </li>
+                                     </div>
+                                 </ul>
+                             </div>
+                         </nav>
                      </div>
                  </div>
          </header>
-
-
-
 <hr></a>
 <main class="row">
