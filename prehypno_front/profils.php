@@ -1,7 +1,6 @@
 <?php
-require_once "../inc/init.inc.php";
-require_once "../inc/adminHeader.inc.php";
-
+require_once "inc/init.inc.php";
+require_once "inc/Header.inc.php";
 // a décommenter en temps et en heures
 // if(!userConnectedAdmin())
 // {
@@ -9,9 +8,8 @@ require_once "../inc/adminHeader.inc.php";
 // }
 extract($_GET);
 $contenu = "";
-
+$members="";
 // ---------------SUPPRESSION D' UN PATIENT'-----------------------
-
 if (isset($_GET['action']) && $_GET['action'] == 'suppression' && isset($_GET['id'])) {
     $member_delete = $pdo->prepare("DELETE FROM members WHERE idMember = :id");
     $member_delete->bindValue(':id', $id, PDO::PARAM_STR);
@@ -19,19 +17,20 @@ if (isset($_GET['action']) && $_GET['action'] == 'suppression' && isset($_GET['i
     $_GET['action'] = 'affichage'; // on redirige vers l'affichage des articles
     $validate .= "<div class='alert-warning col-md-6 offset-md-3  mb-2 text-center'>le membre n° <strong>$id</strong> a bien été supprimé !</div>";
 }
-
 //---------------AFFICHAGE DEL'HISTORIQUE -----------------------
-
 ?>
-
-
 <div class="row">
 </div>
 <div class="container mt-5">
     <h3 class="text-center m-2">Fichier patient : </h3>
-
+     <a href="#">
+         <button class="bouton_vert badge-pill offset-md-9 mt-5 mb-5">modification de la fiche
+        </button>
+    </a>
     <?php
-
+    ?>
+    
+<?php
     // requete pour afficher les infos du patient, une seule fois
     if (isset($_GET['action']) && $_GET['action'] == 'show' && isset($_GET['id'])) {
         $resultat = $pdo->prepare("SELECT * FROM members as m, rdv as r WHERE m.idMember = r.memberid AND m.idMember= :idMember");
@@ -46,7 +45,6 @@ if (isset($_GET['action']) && $_GET['action'] == 'suppression' && isset($_GET['i
     print_r($members);
     echo '</pre>';
     ?>
-
     <form class="m-3">
         <div class="form-row m-2">
             <div class="col">
@@ -75,18 +73,18 @@ if (isset($_GET['action']) && $_GET['action'] == 'suppression' && isset($_GET['i
         </div>
         <div class="form-row  m-2">
             <div class="col-3">
-                <select id="inputState" class="form-control">
+                <input type="text" class="form-control" placeholder="Pays " value="<?= $value['country'] ?>">
+                <!-- <select id="inputState" class="form-control">
                     <option selected>Pays</option>
                     <option>France</option>
                     <option>Belgique</option>
-                </select>
+                </select> -->
             </div>
         </div>
     </form>
-
-    <h3 class="text-center m-2">Historique des RDV : </h3>
-
-    <table class="table table-striped table-dark text-center">
+<!-- 
+    <h3 class="text-center m-2">Historique des RDV : </h3> -->
+    <!-- <table class="table table-striped table-dark text-center">
         <thead>
             <tr>
                 <th scope="col">Jour de la consultation</th>
@@ -94,14 +92,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'suppression' && isset($_GET['i
                 <th scope="col">Pays</th>
                 <th colspan="2">Action</th>
             </tr>
-        </thead>
-
-        <?= $contenu; ?>
-
+        </thead> -->
     </table>
 
-
-
-    <?php
-    require_once "../inc/adminFooter.inc.php";
-    ?>
+   <?php require_once 'inc/footer.inc.php' ?>

@@ -16,11 +16,12 @@ li {
 }
 
 /*************************************** HEADER & FOOTER ***************************************/
-
+/* trait hr après le header */
 hr {
   width: 100%;
   border: 1px solid #d3d3d3;
 }
+/* pour supprimer le curseur de la  page connexion */
 a hr {
   cursor: default;
 }
@@ -33,21 +34,21 @@ a hr {
   padding: 0.3rem 1rem;
   border: none;
 }
-
+/* bouton de la page article*/
 .bouton_vert.article {
   background-color: transparent;
   border: 2px solid #98C1D9;
   color: #98C1D9;
 }
-
+/* bouton "voir" de la page d'accueil */
 .bouton_vert.voir_plus {
   margin-bottom: 3rem;
 }
-
+/* 
 .bouton_vert.blue {
   font-size: 1.3rem;
   background-color: #6C969D;
-}
+} */
 /* pour gérer la taille de la font sous le logo */
 .logo {
   font-size: .8rem;
@@ -55,7 +56,6 @@ a hr {
 }
 
 /* pour gérer la taille du H1, trop grand si pas gérer */
-
 .accueil {
   font-size: 1.4rem;
 }
@@ -63,26 +63,33 @@ a hr {
 .telephone {
   cursor: default !important;
 }
-/* inscription */
-
-/* .inscription{
-} */
+/* 
 .button_image {
   width: 3rem;
   display: block;
   margin: 2rem auto;
-}
-
+} */
+/* photo de profil */
 .pp-size {
   width: 100%;
   height: auto;
 }
-
+/* HOVER DE L'IMAGE */
 .rounded :hover {
   width: 150px !important;
   /* on affiche l'image au carré */
   height: 150px !important;
   border-radius: 50% !important;
+}
+/* div bannière evenement */
+#event{
+  display:none;
+}
+ /* menu burger responsive pour grand écran*/
+@media screen and (min-width: 1366px){
+  button .navbar-toggler{
+    margin-left: 39.5rem !important;
+  }
 }
 
 /* reseaux sociaux footer
@@ -90,7 +97,6 @@ a hr {
 2_Reduire en forme circulaire avec le border-radius 
 3_ajouter une bordure en RGB
 4_appliquer le code du passage de la souris
-
 */
 
 footer {
@@ -127,7 +133,6 @@ footer ul li .twit {
   position: relative;
   margin-top: -2.5rem;
 }
-
 /* css particulier (flexbox qui va la répartir de manière égale dans sa row avec le space around) a la card article dans la boucle */
 #container {
   display: flex;
@@ -149,10 +154,66 @@ h4 {
   text-align: center;
   font-size: 1.2rem;
 }
- /* menu burger responsive pour grand écran*/
 
-@media screen and (min-width: 1366px){
-  button .navbar-toggler{
-    margin-left: 39.5rem !important;
-  }
+/* responsive de l'image couple sur la page qui */
+ @media screen and (min-width: 740px) and (max-width: 1100px){
+   .first-list {
+  padding: 0;
+ }
+
+ .img-fluid.couple-middle {
+   margin-top: 30%;
+ }
+
 }
+/* responsive de l'image poids sur la page qui */
+ @media screen and (min-width: 740px) and (max-width: 1100px){
+   .first-list {
+  padding: 0;
+ }
+
+ .img-fluid.poids-middle {
+   margin-top: 60%;
+ }
+
+}
+/* responsive de l'image adulte sur la page qui */
+ @media screen and (min-width: 740px) and (max-width: 1100px){
+   .first-list {
+  padding: 0;
+ }
+
+ .img-fluid.adultes-middle {
+   margin-top: 60%;
+ }
+
+}
+/* responsive de l'image enfants sur la page qui */
+ @media screen and (min-width: 740px) and (max-width: 1100px){
+   .first-list {
+  padding: 0;
+ }
+ 
+ .img-fluid.enfants-middle {
+   margin-top: 60%;
+ }
+}
+/* responsive de l'image enfants réglé en média quérie (format ordinateur) */
+@media only screen and ( min-width : 1201px ){
+.img-fluid.enfants-middle{
+  margin-top:10%;
+}
+} 
+/* responsive de l'image adultes réglé en média quérie (format ordinateur) */
+@media only screen and ( min-width : 1201px ){
+.img-fluid.adultes-middle{
+  margin-top:10%;
+}
+} 
+
+/* responsive du texte enfants sur la page qui */
+ @media screen and (min-width: 0px) and (max-width: 740px){
+   .first-list {
+  padding: 0;
+ }
+ }

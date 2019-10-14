@@ -2,8 +2,8 @@
       require_once 'inc/header.inc.php'; ?>
 <div class="container offset-md-1">
     <div class="row">
-        <div class="col-sx-2 col-sm-2 col-md-6 col-lg-4 mt-4 mx-auto mr-4 mt-3">
-            <img src="lib/img/pp.png" class="rounded-circle img-fluid mx-auto mt-5" alt="photo-profil">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 mt-4 mx-auto">
+            <img src="lib/img/pp.png" class="rounded-circle img-fluid mt-5" alt="photo-profil">
         </div>
         <div class="col-md-7 offset-md-1 mt-3 text-justify">
             <h3 class="mt-5">Anne-Cécile ROUGIER</h3>

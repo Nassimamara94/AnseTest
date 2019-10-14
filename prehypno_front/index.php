@@ -27,11 +27,31 @@ while ($articles = $resultat->fetch(PDO::FETCH_ASSOC)) :
 
 endwhile;
 ?>
+
   <div class="row mx-auto">
+    <div class="row mx-auto" id="event"> <!-- début row de la div evenement -->
+
+<!-- Card -->
+<div class="card card-cascade wider reverse">
+
+  <!-- Card content -->
+  <div class="card-body card-body-cascade text-center">
+
+    <!-- Title -->
+    <h4 class="card-title"><strong>Evenements</strong></h4>
+    <!-- Text -->
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
+    </p>
+ </div>
+
+</div>
+<!-- Card -->
+
+    </div> <!-- fin row de la div evenement -->
     <!-- PP de la Thérapeute -->
-    <div class=" col-sm-7 col-md-6 col-lg-4 mt-5 mx-auto">
+    <div class=" col-sm-7 col-md-6 col-lg-4 mt-4 mx-auto">
         <a href="prez.php?page=prez" title="qui suis-je ?">
-            <img src="lib/img/pp.png" class="rounded-circle img-fluid mx-auto " alt="photo de profil">
+            <img src="lib/img/pp.png" class="rounded-circle img-fluid mx-auto" alt="photo de profil">
         </a>
     </div><!-- Fin col-md-2 -->
     <div class="col-md-6 mx-auto mt-5">

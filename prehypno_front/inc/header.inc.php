@@ -45,18 +45,18 @@
                 <div class="col-md-4 text-center"  id="border">
                         <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
                         <a href="rdv.php">
-                            <button class="bouton_vert mt-4 badge-pill" target="_blank">
+                            <button class="bouton_vert mt-4 badge-pill mx-auto">
                                 <i class="fas fa-clock"> </i> Prendre un RDV 
                             </button></a>          
                 </div>
                 <div class="col-md-2 text-center">
                     <div>
-                        <a href="profil.php">
-                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Profil
+                        <a href="profils.php">
+                             <button class="bouton_vert badge-pill mt-5 inscription"><i class="fas fa-clock"></i> Profil
                              </button>
                          </a>
                          <a href="deconnexion.php">
-                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Déconnexion
+                             <button class="bouton_vert badge-pill mx-auto mt-4"><i class="fas fa-clock"></i> Déconnexion
                              </button>
                          </a>
                     </div>
@@ -72,14 +72,14 @@
                  <address>
                      <i class="fas fa-map-marker-alt mt-2"></i>&nbsp 23 rue de la folie Méricourt<br> 75011 Paris
                  </address>    
-                 <button class="bouton_vert mx-auto badge-pill telephone">
+                 <button class="bouton_vert badge-pill telephone mx-auto">
                      <i class="fas fa-phone"></i> &nbsp 07 01 02 03 01
                  </button>
              </div>
             <div class="col-md-4 text-center"  id="border">
                  <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
                      <a href="rdv.php">
-                         <button class="bouton_vert mt-4 badge-pill" target="_blank">
+                         <button class="bouton_vert mt-4 badge-pill mx-auto">
                             <i class="fas fa-clock"> </i> Prendre un RDV 
                          </button>
                      </a>          
@@ -87,7 +87,7 @@
             <div class="col-md-2 text-center">
                  <div>
                      <a href="admin/connexion.php">
-                        <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Inscription/<br>Connexion
+                        <button class="bouton_vert badge-pill mx-auto mt-4" target="_blank"><i class="fas fa-clock"></i> Inscription/<br>Connexion
                         </button>
                      </a>
                  </div>
@@ -111,7 +111,7 @@
                 <div class="col-md-4 text-center"  id="border">
                      <h1 class="mt-2 accueil">Hypno-Thérapeute-Humaniste</h1>
                          <a href="rdv.php">
-                             <button class="bouton_vert mt-4 badge-pill" target="_blank">
+                             <button class="bouton_vert mt-4 badge-pill mx-auto">
                                      <i class="fas fa-clock"> </i> Prendre un RDV 
                              </button>
                          </a>          
@@ -119,11 +119,11 @@
                 <div class="col-md-2 text-center">
                      <div>
                          <a href="admin.php">
-                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Admin
+                             <button class="bouton_vert badge-pill mx-auto mt-4"><i class="fas fa-clock"></i> Admin
                              </button>
                          </a>
                          <a href="deconnexion.php">
-                             <button class="bouton_vert badge-pill mt-5 inscription" target="_blank"><i class="fas fa-clock"></i> Déconnexion
+                             <button class="bouton_vert badge-pill mx-auto mt-4"><i class="fas fa-clock"></i> Déconnexion
                              </button>
                          </a>
                      </div>
